@@ -4,7 +4,7 @@ import React from 'react'
 const Java = () => {
   return (
     <View>
-      <Text>Java</Text>
+      <Text>Javasss</Text>
     </View>
   )
 }
