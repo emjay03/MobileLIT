@@ -4,7 +4,7 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import React, { useState, useEffect } from 'react';
 import Entypo from 'react-native-vector-icons/Entypo';
-
+import AntDesign from 'react-native-vector-icons/AntDesign';
 // Screen Tab
 import Guide from './screens/Guide';
 import About from './screens/About';
@@ -1056,7 +1056,7 @@ function App() {
       screenOptions={{
         tabBarStyle: {
           backgroundColor: 'white',
-          height:60,
+          height:65,
           paddingVertical: 12,
           paddingHorizontal: 7,
           borderTopLeftRadius: 20, // add 10 pixels of rounded top-left corner
@@ -1070,11 +1070,11 @@ function App() {
       <Tab.Screen name="Home" component={HomeStack}  options={{ 
        headerShown: false, 
         tabBarIcon: ({  size }) => (
-          <Entypo name="home" color="#0C4294" size={size} />
+          <AntDesign name="home" color="#0C4294" size={size} />
         ),
         tabBarLabelStyle: {
           color: '#0C4294',
-          fontFamily:'Poppins-Normal',
+          fontFamily:'Poppins-SemiBold',
           fontSize:14,
        
           
@@ -1087,11 +1087,11 @@ function App() {
       options={{ 
         headerShown: false, 
         tabBarIcon: ({size }) => (
-          <Entypo name="info" color="#0C4294" size={size} />
+          <AntDesign name="infocirlceo" color="#0C4294" size={size} />
         ),
         tabBarLabelStyle: {
           color: '#0C4294',
-          fontFamily:'Poppins-Normal',
+          fontFamily:'Poppins-SemiBold',
           fontSize:14,
           
         },
@@ -1107,7 +1107,7 @@ function App() {
           ),
           tabBarLabelStyle: {
             color: '#0C4294',
-            fontFamily:'Poppins-Normal',
+            fontFamily:'Poppins-SemiBold',
             fontSize:14,
          
             
