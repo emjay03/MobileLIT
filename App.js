@@ -781,7 +781,7 @@ function HomeStack({ navigation }) {
         fontWeight: 'normal',
       },
       headerStyle: {
-        backgroundColor: '#4F98CA',
+        backgroundColor: '#0C4294',
         elevation: 0, // remove shadow on Android
         shadowOpacity: 0, // remove shadow on iOS
       },
