@@ -5,6 +5,7 @@ import Ionicons from 'react-native-vector-icons/Ionicons';
 import React, { useState, useEffect } from 'react';
 import Entypo from 'react-native-vector-icons/Entypo';
 import AntDesign from 'react-native-vector-icons/AntDesign';
+import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 // Screen Tab
 import Guide from './screens/Guide';
 import About from './screens/About';
@@ -1070,7 +1071,7 @@ function App() {
       <Tab.Screen name="Home" component={HomeStack}  options={{ 
        headerShown: false, 
         tabBarIcon: ({  size }) => (
-          <AntDesign name="home" color="#0C4294" size={size} />
+          <Entypo name="home" color="#0C4294" size={size} />
         ),
         tabBarLabelStyle: {
           color: '#0C4294',
@@ -1087,7 +1088,7 @@ function App() {
       options={{ 
         headerShown: false, 
         tabBarIcon: ({size }) => (
-          <AntDesign name="infocirlceo" color="#0C4294" size={size} />
+          <AntDesign name="infocirlce" color="#0C4294" size={size} />
         ),
         tabBarLabelStyle: {
           color: '#0C4294',
@@ -1103,7 +1104,7 @@ function App() {
       options={{ 
         headerShown: false, 
         tabBarIcon: ({  size }) => (
-          <Entypo name="code" color="#0C4294" size={size} />
+          <MaterialCommunityIcons name="code-not-equal-variant" color="#0C4294" size={size} />
           ),
           tabBarLabelStyle: {
             color: '#0C4294',
