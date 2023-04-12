@@ -232,7 +232,7 @@ function Code({ navigation }) {
       name="arrow-back"
       size={24}
       color="#EFFFFB"
-      onPress={() => navigation.goBack()}
+      onPress={() => navigation.navigate('webdevelopment')}
       style={{ marginLeft: 16 }}
     />
   ),
@@ -1068,19 +1068,24 @@ function App() {
       
       }}
     >
-      <Tab.Screen name="Home" component={HomeStack}  options={{ 
-       headerShown: false, 
-        tabBarIcon: ({  size }) => (
-          <Entypo name="home" color="#0C4294" size={size} />
-        ),
-        tabBarLabelStyle: {
-          color: '#0C4294',
-          fontFamily:'Poppins-SemiBold',
-          fontSize:14,
-       
-          
-        },
-      }}  />
+<Tab.Screen 
+  name="Home" 
+  component={HomeStack} 
+  options={{ 
+    headerShown: false, 
+    tabBarIcon: ({ size, color }) => (
+      <Entypo name="home" color={color} size={size} />
+    ),
+    tabBarLabelStyle: {
+      fontFamily: 'Poppins-SemiBold',
+      fontSize: 14,
+    },
+    tabBarActiveTintColor: '#0C4294', // active tab color
+    tabBarInactiveTintColor: 'purple', // inactive tab color
+  }} 
+/>
+
+
     <Tab.Screen 
       name="About" 
       component={AboutTeam} 
