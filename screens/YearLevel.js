@@ -5,7 +5,7 @@ import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 const YearLevel = ({navigation}) => {
   return (
     <View>
-      <View className="flex px-10 justify-center h-full bg-[#fafafa] ">
+      <View className="flex px-10 justify-center h-full bg-white ">
         <View className="pb-4">
           <Text style={styles.KarlaItalic} className="text-xl text-[#272727]">
             "Programming isn't about what you know; it's about what you can{' '}
