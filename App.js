@@ -42,6 +42,9 @@ import Csharp from './Coding/Csharp';
 import Java from './Coding/Java';
 import Helloworld from './Webdevelopment/Helloworld';
 import Basichtml from './Webdevelopment/Basichtml';
+import FourthYear from './screens/FourthYear';
+import AdvanceYear from './screens/AdvanceYear';
+import FourthLearningOutcomesModule1 from './Learningoutcome/FourthLearningOutcomesModule1';
 
 
 const Stack = createStackNavigator();
@@ -399,7 +402,7 @@ function HomeStack({ navigation }) {
             fontWeight: 'normal',
           },
           headerStyle: {
-            backgroundColor: '#4F98CA',
+            backgroundColor: '#0C4294',
             elevation: 0, // remove shadow on Android
             shadowOpacity: 0, // remove shadow on iOS
      
@@ -768,6 +771,80 @@ function HomeStack({ navigation }) {
           ),
         }} 
     />
+       <Stack.Screen name="Fourth Year Module" component={FourthYear}
+        options={{
+          headerTitle: 'Fourth Year Module',
+          headerTitleAlign: 'center',
+          headerTitleStyle: {
+            fontSize: 20,
+           
+            fontFamily:'Poppins-SemiBold',
+            color: '#EFFFFB',
+            fontWeight: 'normal',
+          },
+          headerStyle: {
+            backgroundColor: '#0C4294',
+            elevation: 0, // remove shadow on Android
+            shadowOpacity: 0, // remove shadow on iOS
+     
+          },
+          headerLeft: () => (
+            <Ionicons
+              name="arrow-back"
+              size={24}
+              color="#EFFFFB"
+              onPress={() => navigation.goBack()}
+              style={{ marginLeft: 16 }}
+            />
+          ),
+          headerRight: () => (
+            <Entypo
+              name="help-with-circle"
+              size={20}
+              color="#EFFFFB"
+              onPress={() => navigation.navigate('Guide')}
+              style={{ marginRight: 16 }}
+            />
+          ),
+        }} 
+    />
+     <Stack.Screen name="Advance Year Module" component={AdvanceYear}
+        options={{
+          headerTitle: 'Advance Year Module',
+          headerTitleAlign: 'center',
+          headerTitleStyle: {
+            fontSize: 20,
+           
+            fontFamily:'Poppins-SemiBold',
+            color: '#EFFFFB',
+            fontWeight: 'normal',
+          },
+          headerStyle: {
+            backgroundColor: '#0C4294',
+            elevation: 0, // remove shadow on Android
+            shadowOpacity: 0, // remove shadow on iOS
+     
+          },
+          headerLeft: () => (
+            <Ionicons
+              name="arrow-back"
+              size={24}
+              color="#EFFFFB"
+              onPress={() => navigation.goBack()}
+              style={{ marginLeft: 16 }}
+            />
+          ),
+          headerRight: () => (
+            <Entypo
+              name="help-with-circle"
+              size={20}
+              color="#EFFFFB"
+              onPress={() => navigation.navigate('Guide')}
+              style={{ marginRight: 16 }}
+            />
+          ),
+        }} 
+    />
       <Stack.Screen 
     name="LearningOutcomes" 
     component={LearningOutcomes} 
@@ -1012,6 +1089,45 @@ function HomeStack({ navigation }) {
       },
       headerStyle: {
         backgroundColor: '#4F98CA',
+        elevation: 0, // remove shadow on Android
+        shadowOpacity: 0, // remove shadow on iOS
+      },
+      headerLeft: () => (
+        <Ionicons
+          name="arrow-back"
+          size={24}
+          color="#EFFFFB"
+          onPress={() => navigation.goBack()}
+          style={{ marginLeft: 16 }}
+        />
+      ),
+      headerRight: () => (
+        <Entypo
+          name="help-with-circle"
+          size={20}
+          color="#EFFFFB"
+          onPress={() => navigation.navigate('Guide')}
+          style={{ marginRight: 16 }}
+        />
+      ),
+    }} 
+  />
+
+<Stack.Screen 
+    name="FourthLearningOutcomesModule1" 
+    component={FourthLearningOutcomesModule1} 
+    options={{
+      headerTitle: 'Learning Outcomes',
+      headerTitleAlign: 'center',
+      headerTitleStyle: {
+        fontSize: 20,
+       
+        fontFamily:'Poppins-SemiBold',
+        color: '#EFFFFB',
+        fontWeight: 'normal',
+      },
+      headerStyle: {
+        backgroundColor: '#0C4294',
         elevation: 0, // remove shadow on Android
         shadowOpacity: 0, // remove shadow on iOS
       },
