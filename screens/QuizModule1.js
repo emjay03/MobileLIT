@@ -1,9 +1,9 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState, useEffect,} from 'react';
 import {
   View,
   Text,
   Button,
-  TouchableOpacity,
+  TouchableHighlight,
   StyleSheet,
   Image,
   SafeAreaView,
@@ -306,8 +306,8 @@ const QuizModule1 = ({navigation}) => {
                 )}
               </Text>
               <View className="flex justify-center items-center py-4">
-                <TouchableOpacity
-                  className="rounded-md my-2 w-1/2 bg-[#4F98CA] flex justify-center items-center"
+                <TouchableHighlight
+                  className="rounded-md my-2 w-1/2bg-[#0C4294] flex justify-center items-center"
                   title="Retry"
                   onPress={handleRetry}>
                   <Text
@@ -315,7 +315,7 @@ const QuizModule1 = ({navigation}) => {
                     className="text-[17px] py-2 text-white">
                     Retry
                   </Text>
-                </TouchableOpacity>
+                </TouchableHighlight>
               </View>
             </View>
           </View>
@@ -346,7 +346,7 @@ const QuizModule1 = ({navigation}) => {
             </View>
             <View className="py-4 px-2  rounded-2xl">
               {questions[currentQuestion].options.map((option, index) => (
-                <TouchableOpacity
+                <TouchableHighlight
                   key={index}
                   onPress={() => {
                     handleOptionSelect(option);
@@ -357,7 +357,7 @@ const QuizModule1 = ({navigation}) => {
                  
                     {` ${String.fromCharCode(65 + index)}. ${option}`}
                   </Text>
-                </TouchableOpacity>
+                </TouchableHighlight>
               ))}
             </View>
             
@@ -417,16 +417,16 @@ const QuizModule1 = ({navigation}) => {
                   )}
                 </Text>
                 <View className="flex justify-center items-center py-4">
-                  <TouchableOpacity
-                    className="rounded-md my-2 w-1/2 bg-[#4F98CA] flex justify-center items-center"
+                  <TouchableHighlight
+                    className="rounded-md my-2 w-1/2 bg-[#0C4294] flex justify-center items-center"
                     title="Retry"
-                    onPress={handleRetry}>
+                    underlayColor="#105aca"  onPress={handleRetry}>
                     <Text
                       style={styles.SemiBold}
                       className="text-[17px] py-2 text-white">
                       Retry
                     </Text>
-                  </TouchableOpacity>
+                  </TouchableHighlight>
                 </View>
               </View>
             </View>
