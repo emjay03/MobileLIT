@@ -108,17 +108,19 @@ const FirstYear = ({navigation}) => {
         </View>
         {/* Close Module 4 */}
       {/* Open Module 5 */}
-        <View className="p-4  ">
-           <View className=" py-3  flex flex-row bg-[#fffdff] rounded-md h-auto shadow-lg">
+      <View className="p-4  ">
+        <TouchableHighlight    underlayColor="#E5E7EB"  onPress={() => navigation.navigate('Underdevelopment')}>
+          <View className=" py-3  flex flex-row bg-[#fffdff] rounded-md h-auto shadow-lg">
             <View className="w-1/5 flex-col justify-center text-center">
-            <Text style={styles.Bold} className=" text-center  text-[#50D890]  ">
-                Module{' '}
+            <Text style={styles.Bold} className=" text-center text-[#50D890]  ">
+               
+                Module
               </Text>
-              <Text  style={styles.Bold} className=" text-center  text-xl  text-[#50D890]  "> 5</Text>
+              <Text  style={styles.Bold} className=" text-center  text-xl  text-[#50D890] "> 5</Text>
             </View>
             <View className=" w-4/5 flex-col px-2">
               <Text style={styles.SemiBold} className=" text-[#272727] text-[17px] ">
-              Database Management Systems{' '}
+              Database Management System
               </Text>
               <Text style={styles.Medium} className=" text-[#272727] text-[15px] leading-5">
                 Programming fundamentals are the essential concepts that serve
@@ -126,20 +128,23 @@ const FirstYear = ({navigation}) => {
               </Text>
             </View>
           </View>
+          </TouchableHighlight>
         </View>
         {/* Close Module 5 */}
         {/* Open Module 6 */}
         <View className="p-4  ">
-           <View className=" py-3  flex flex-row bg-[#fffdff] rounded-md h-auto shadow-lg">
+        <TouchableHighlight    underlayColor="#E5E7EB"  onPress={() => navigation.navigate('Underdevelopment')}>
+          <View className=" py-3  flex flex-row bg-[#fffdff] rounded-md h-auto shadow-lg">
             <View className="w-1/5 flex-col justify-center text-center">
-            <Text style={styles.Bold} className=" text-center  text-[#50D890]  ">
-                Module{' '}
+            <Text style={styles.Bold} className=" text-center text-[#50D890]  ">
+               
+                Module
               </Text>
               <Text  style={styles.Bold} className=" text-center  text-xl  text-[#50D890] "> 6</Text>
             </View>
             <View className=" w-4/5 flex-col px-2">
               <Text style={styles.SemiBold} className=" text-[#272727] text-[17px] ">
-              Discrete Structures for Computing{' '}
+              Discrete structure for Computing
               </Text>
               <Text style={styles.Medium} className=" text-[#272727] text-[15px] leading-5">
                 Programming fundamentals are the essential concepts that serve
@@ -147,20 +152,23 @@ const FirstYear = ({navigation}) => {
               </Text>
             </View>
           </View>
+          </TouchableHighlight>
         </View>
         {/* Close Module 6 */}
         {/* Open Module 7 */}
         <View className="p-4  ">
-           <View className=" py-3  flex flex-row bg-[#fffdff] rounded-md h-auto shadow-lg">
+        <TouchableHighlight    underlayColor="#E5E7EB"  onPress={() => navigation.navigate('Underdevelopment')}>
+          <View className=" py-3  flex flex-row bg-[#fffdff] rounded-md h-auto shadow-lg">
             <View className="w-1/5 flex-col justify-center text-center">
-            <Text style={styles.Bold} className=" text-center  text-[#50D890]  ">
-                Module{' '}
+            <Text style={styles.Bold} className=" text-center text-[#50D890]  ">
+               
+                Module
               </Text>
-              <Text  style={styles.Bold} className=" text-center  text-xl  text-[#50D890]  ">7</Text>
+              <Text  style={styles.Bold} className=" text-center  text-xl  text-[#50D890] "> 7</Text>
             </View>
             <View className=" w-4/5 flex-col px-2">
               <Text style={styles.SemiBold} className=" text-[#272727] text-[17px] ">
-                Fundamental of Programming{' '}
+              Database Management System
               </Text>
               <Text style={styles.Medium} className=" text-[#272727] text-[15px] leading-5">
                 Programming fundamentals are the essential concepts that serve
@@ -168,20 +176,23 @@ const FirstYear = ({navigation}) => {
               </Text>
             </View>
           </View>
+          </TouchableHighlight>
         </View>
         {/* Close Module 7 */}
         {/* Open Module 8 */}
         <View className="p-4  ">
-           <View className=" py-3  flex flex-row bg-[#fffdff] rounded-md h-[140px] shadow-lg">
+        <TouchableHighlight    underlayColor="#E5E7EB"  onPress={() => navigation.navigate('Underdevelopment')}>
+          <View className=" py-3  flex flex-row bg-[#fffdff] rounded-md h-auto shadow-lg">
             <View className="w-1/5 flex-col justify-center text-center">
-            <Text style={styles.Bold} className=" text-center  text-[#50D890]  ">
-                Module{' '}
+            <Text style={styles.Bold} className=" text-center text-[#50D890]  ">
+               
+                Module
               </Text>
-              <Text  style={styles.Bold} className=" text-center  text-xl  text-[#50D890]  ">8</Text>
+              <Text  style={styles.Bold} className=" text-center  text-xl  text-[#50D890] "> 8</Text>
             </View>
             <View className=" w-4/5 flex-col px-2">
               <Text style={styles.SemiBold} className=" text-[#272727] text-[17px] ">
-                Fundamental of Programming{' '}
+              Database Management System
               </Text>
               <Text style={styles.Medium} className=" text-[#272727] text-[15px] leading-5">
                 Programming fundamentals are the essential concepts that serve
@@ -189,20 +200,23 @@ const FirstYear = ({navigation}) => {
               </Text>
             </View>
           </View>
+          </TouchableHighlight>
         </View>
         {/* Close Module 8 */}
         {/* Open Module 9 */}
-        <View className="px-4 pt-4  ">
-        <View className=" py-3  flex flex-row bg-[#fffdff] rounded-md h-auto shadow-lg">
+        <View className="p-4  ">
+        <TouchableHighlight    underlayColor="#E5E7EB"  onPress={() => navigation.navigate('Underdevelopment')}>
+          <View className=" py-3  flex flex-row bg-[#fffdff] rounded-md h-auto shadow-lg">
             <View className="w-1/5 flex-col justify-center text-center">
-            <Text style={styles.Bold} className=" text-center text-[#50D890] ">
-                Module{' '}
+            <Text style={styles.Bold} className=" text-center text-[#50D890]  ">
+               
+                Module
               </Text>
-              <Text  style={styles.Bold} className=" text-center  text-xl  text-[#50D890]  ">9</Text>
+              <Text  style={styles.Bold} className=" text-center  text-xl  text-[#50D890] "> 9</Text>
             </View>
             <View className=" w-4/5 flex-col px-2">
               <Text style={styles.SemiBold} className=" text-[#272727] text-[17px] ">
-                Fundamental of Programming{' '}
+              Database Management System
               </Text>
               <Text style={styles.Medium} className=" text-[#272727] text-[15px] leading-5">
                 Programming fundamentals are the essential concepts that serve
@@ -210,6 +224,7 @@ const FirstYear = ({navigation}) => {
               </Text>
             </View>
           </View>
+          </TouchableHighlight>
         </View>
         {/* Close Module 9 */}
         

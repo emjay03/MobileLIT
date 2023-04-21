@@ -45,6 +45,7 @@ import Basichtml from './Webdevelopment/Basichtml';
 import FourthYear from './screens/FourthYear';
 import AdvanceYear from './screens/AdvanceYear';
 import FourthLearningOutcomesModule1 from './Learningoutcome/FourthLearningOutcomesModule1';
+import Underdevelopment from './screens/Underdevelopment';
 
 
 const Stack = createStackNavigator();
@@ -337,7 +338,7 @@ function HomeStack({ navigation }) {
   return (
     <Stack.Navigator >
     <Stack.Screen
-  name="Module 1 Quiz"
+  name="HomeScreen"
   component={YearLevel}
   options={{
     headerTitle: 'Home',
@@ -391,7 +392,7 @@ function HomeStack({ navigation }) {
       
       <Stack.Screen name="Module1" component={Module1}
         options={{
-          headerTitle: 'Module 1 ',
+          headerTitle: 'Module 12 ',
           headerShown: false,
           headerTitleAlign: 'center',
           headerTitleStyle: {
@@ -441,7 +442,7 @@ function HomeStack({ navigation }) {
             fontWeight: 'normal',
           },
           headerStyle: {
-            backgroundColor: '#4F98CA',
+            backgroundColor: '#0C4294',
             elevation: 0, // remove shadow on Android
             shadowOpacity: 0, // remove shadow on iOS
      
@@ -479,7 +480,7 @@ function HomeStack({ navigation }) {
             fontWeight: 'normal',
           },
           headerStyle: {
-            backgroundColor: '#4F98CA',
+            backgroundColor: '#0C4294',
             elevation: 0, // remove shadow on Android
             shadowOpacity: 0, // remove shadow on iOS
      
@@ -518,7 +519,7 @@ function HomeStack({ navigation }) {
             fontWeight: 'normal',
           },
           headerStyle: {
-            backgroundColor: '#4F98CA',
+            backgroundColor: '#0C4294',
             elevation: 0, // remove shadow on Android
             shadowOpacity: 0, // remove shadow on iOS
      
@@ -557,7 +558,7 @@ function HomeStack({ navigation }) {
             fontWeight: 'normal',
           },
           headerStyle: {
-            backgroundColor: '#4F98CA',
+            backgroundColor: '#0C4294',
             elevation: 0, // remove shadow on Android
             shadowOpacity: 0, // remove shadow on iOS
      
@@ -595,7 +596,7 @@ function HomeStack({ navigation }) {
             fontWeight: 'normal',
           },
           headerStyle: {
-            backgroundColor: '#4F98CA',
+            backgroundColor: '#0C4294',
             elevation: 0, // remove shadow on Android
             shadowOpacity: 0, // remove shadow on iOS
      
@@ -634,7 +635,7 @@ function HomeStack({ navigation }) {
             fontWeight: 'normal',
           },
           headerStyle: {
-            backgroundColor: '#4F98CA',
+            backgroundColor: '#0C4294',
             elevation: 0, // remove shadow on Android
             shadowOpacity: 0, // remove shadow on iOS
      
@@ -709,7 +710,7 @@ function HomeStack({ navigation }) {
             fontWeight: 'normal',
           },
           headerStyle: {
-            backgroundColor: '#4F98CA',
+            backgroundColor: '#0C4294',
             elevation: 0, // remove shadow on Android
             shadowOpacity: 0, // remove shadow on iOS
      
@@ -746,7 +747,7 @@ function HomeStack({ navigation }) {
             fontWeight: 'normal',
           },
           headerStyle: {
-            backgroundColor: '#4F98CA',
+            backgroundColor: '#0C4294',
             elevation: 0, // remove shadow on Android
             shadowOpacity: 0, // remove shadow on iOS
      
@@ -898,7 +899,7 @@ function HomeStack({ navigation }) {
         fontWeight: 'normal',
       },
       headerStyle: {
-        backgroundColor: '#4F98CA',
+        backgroundColor: '#0C4294',
         elevation: 0, // remove shadow on Android
         shadowOpacity: 0, // remove shadow on iOS
       },
@@ -936,7 +937,7 @@ function HomeStack({ navigation }) {
         fontWeight: 'normal',
       },
       headerStyle: {
-        backgroundColor: '#4F98CA',
+        backgroundColor: '#0C4294',
         elevation: 0, // remove shadow on Android
         shadowOpacity: 0, // remove shadow on iOS
       },
@@ -974,7 +975,7 @@ function HomeStack({ navigation }) {
         fontWeight: 'normal',
       },
       headerStyle: {
-        backgroundColor: '#4F98CA',
+        backgroundColor: '#0C4294',
         elevation: 0, // remove shadow on Android
         shadowOpacity: 0, // remove shadow on iOS
       },
@@ -1012,7 +1013,7 @@ function HomeStack({ navigation }) {
         fontWeight: 'normal',
       },
       headerStyle: {
-        backgroundColor: '#4F98CA',
+        backgroundColor: '#0C4294',
         elevation: 0, // remove shadow on Android
         shadowOpacity: 0, // remove shadow on iOS
       },
@@ -1050,7 +1051,7 @@ function HomeStack({ navigation }) {
         fontWeight: 'normal',
       },
       headerStyle: {
-        backgroundColor: '#4F98CA',
+        backgroundColor: '#0C4294',
         elevation: 0, // remove shadow on Android
         shadowOpacity: 0, // remove shadow on iOS
       },
@@ -1088,7 +1089,7 @@ function HomeStack({ navigation }) {
         fontWeight: 'normal',
       },
       headerStyle: {
-        backgroundColor: '#4F98CA',
+        backgroundColor: '#0C4294',
         elevation: 0, // remove shadow on Android
         shadowOpacity: 0, // remove shadow on iOS
       },
@@ -1151,9 +1152,51 @@ function HomeStack({ navigation }) {
       ),
     }} 
   />
+  {/* under development */}
+
+  <Stack.Screen 
+    name="Underdevelopment" 
+    component={Underdevelopment} 
+    options={{
+      headerTitle: 'Learning Outcomes',
+      headerTitleAlign: 'center',
+      headerTitleStyle: {
+        fontSize: 20,
+       
+        fontFamily:'Poppins-SemiBold',
+        color: '#EFFFFB',
+        fontWeight: 'normal',
+      },
+      headerStyle: {
+        backgroundColor: '#0C4294',
+        elevation: 0, // remove shadow on Android
+        shadowOpacity: 0, // remove shadow on iOS
+      },
+      headerLeft: () => (
+        <Ionicons
+          name="arrow-back"
+          size={24}
+          color="#EFFFFB"
+          onPress={() => navigation.goBack()}
+          style={{ marginLeft: 16 }}
+        />
+      ),
+      headerRight: () => (
+        <Entypo
+          name="help-with-circle"
+          size={20}
+          color="#EFFFFB"
+          onPress={() => navigation.navigate('Guide')}
+          style={{ marginRight: 16 }}
+        />
+      ),
+    }} 
+  />
     </Stack.Navigator>
   );
 }
+
+
 
 
 function App() {
