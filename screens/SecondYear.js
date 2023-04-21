@@ -13,7 +13,7 @@ const SecondYear = ({navigation}) => {
     // Open Content for SecondYear
     <ScrollView className=" flex-col bg-[#f1eff2]">
       {/*Open Header Section */}
-      <View className="bg-[#4F98CA] absolute w-full h-[260px] ">
+      <View className="bg-[#0C4294] absolute w-full h-[260px] ">
         <View className="flex flex-col  justify-center items-center h-full">
           <Text style={styles.Extra} className="text-3xl text-white ">
             Hello KA-LIT
@@ -26,7 +26,7 @@ const SecondYear = ({navigation}) => {
       {/* Close Header Section */}
       {/* Open for Module List */}
       <View className="flex flex-col mt-[200px] py-2 ">
-        <View className="w-1 px-2 p-0 absolute left-1/2 right-1/2 h-full bg-blue-500 border-blue-900"></View>
+        <View className="w-1 px-2 p-0 absolute left-1/2 right-1/2 h-full bg-[#0C4294] border-blue-900"></View>
         {/* Open Module 1 */}
         <View className=" px-4 pb-4  ">
           <TouchableHighlight
