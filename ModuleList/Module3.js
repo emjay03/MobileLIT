@@ -9,7 +9,6 @@ import {
 import React from 'react';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import Entypo from 'react-native-vector-icons/Entypo';
-import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
 import {ScrollView} from 'react-native-gesture-handler';
 import {createStackNavigator} from '@react-navigation/stack';
 import Guide from '../screens/Guide';
@@ -456,15 +455,16 @@ const Module3 = ({navigation}) => {
         </View>
 
         <View className="flex justify-center items-center py-4">
-          <TouchableOpacity
-            className="my-2 w-1/2 rounded-md bg-[#6C63FF] flex justify-center items-center"
+          <TouchableHighlight
+            className="my-2 w-1/2 rounded-md bg-[#0C4294] flex justify-center items-center"
+            underlayColor="#105aca"
             onPress={() => navigation.navigate('Page2')}>
             <Text
               style={styles.SemiBold}
               className="text-[17px] py-2 text-white">
               Continue
             </Text>
-          </TouchableOpacity>
+          </TouchableHighlight>
         </View>
       </View>
     </ScrollView>
@@ -776,15 +776,16 @@ const Page2 = ({navigation}) => {
           network engineers and other design engineers.
         </Text>
         <View className="flex justify-center items-center py-4">
-          <TouchableOpacity
-            className="my-2 w-1/2 rounded-md bg-[#6C63FF] flex justify-center items-center"
+          <TouchableHighlight
+            className="my-2 w-1/2 rounded-md bg-[#0C4294] flex justify-center items-center"
+            underlayColor="#105aca"
             onPress={() => navigation.navigate('Page3')}>
             <Text
               style={styles.SemiBold}
               className="text-[17px] py-2 text-white">
               Continue
             </Text>
-          </TouchableOpacity>
+          </TouchableHighlight>
         </View>
       </View>
     </ScrollView>
@@ -996,15 +997,16 @@ const Page3 = ({navigation}) => {
         </Text>
 
         <View className="flex justify-center items-center py-4">
-          <TouchableOpacity
-            className="my-2 w-1/2 rounded-md bg-[#6C63FF] flex justify-center items-center"
+          <TouchableHighlight
+            className="my-2 w-1/2 rounded-md bg-[#0C4294] flex justify-center items-center"
+            underlayColor="#105aca"
             onPress={() => navigation.navigate('Page4')}>
             <Text
               style={styles.SemiBold}
               className="text-[17px] py-2 text-white">
               Continue
             </Text>
-          </TouchableOpacity>
+          </TouchableHighlight>
         </View>
       </View>
     </ScrollView>
@@ -1287,15 +1289,16 @@ const Page4 = ({navigation}) => {
         </View>
 
         <View className="flex justify-center items-center py-4">
-          <TouchableOpacity
-            className="my-2 w-1/2 rounded-md bg-[#6C63FF] flex justify-center items-center"
+          <TouchableHighlight
+            className="my-2 w-1/2 rounded-md bg-[#0C4294] flex justify-center items-center"
+            underlayColor="#105aca"
             onPress={() => navigation.navigate('Page5')}>
             <Text
               style={styles.SemiBold}
               className="text-[17px] py-2 text-white">
               Continue
             </Text>
-          </TouchableOpacity>
+          </TouchableHighlight>
         </View>
       </View>
     </ScrollView>
@@ -1567,15 +1570,16 @@ const Page5 = ({navigation}) => {
       
 
         <View className="flex justify-center items-center py-4">
-          <TouchableOpacity
-            className="my-2 w-1/2 rounded-md bg-[#6C63FF] flex justify-center items-center"
+          <TouchableHighlight
+            className="my-2 w-1/2 rounded-md bg-[#0C4294] flex justify-center items-center"
+            underlayColor="#105aca"
             onPress={() => navigation.navigate('Page6')}>
             <Text
               style={styles.SemiBold}
               className="text-[17px] py-2 text-white">
               Continue
             </Text>
-          </TouchableOpacity>
+          </TouchableHighlight>
         </View>
       </View>
     </ScrollView>
@@ -1812,16 +1816,17 @@ const Page6 = ({navigation}) => {
           </Text>
         </View>
 
-        <View className="flex justify-center items-center py-4">
-          <TouchableOpacity
-            className="my-2 w-1/2 rounded-md bg-[#6C63FF] flex justify-center items-center"
+   <View className="flex justify-center items-center py-4">
+          <TouchableHighlight
+            className="my-2 w-1/2 rounded-md bg-[#0C4294] flex justify-center items-center"
+            underlayColor="#105aca"
             onPress={() => navigation.navigate('QuizModule3')}>
             <Text
               style={styles.SemiBold}
               className="text-[17px] py-2 text-white">
               Continue
             </Text>
-          </TouchableOpacity>
+          </TouchableHighlight>
         </View>
       </View>
     </ScrollView>
@@ -1846,7 +1851,7 @@ const MyStack = ({navigation}) => {
             fontWeight: 'normal',
           },
           headerStyle: {
-            backgroundColor: '#4F98CA',
+            backgroundColor: '#0C4294',
             elevation: 0, // remove shadow on Android
             shadowOpacity: 0, // remove shadow on iOS
           },
@@ -1885,7 +1890,7 @@ const MyStack = ({navigation}) => {
             fontWeight: 'normal',
           },
           headerStyle: {
-            backgroundColor: '#4F98CA',
+            backgroundColor: '#0C4294',
             elevation: 0, // remove shadow on Android
             shadowOpacity: 0, // remove shadow on iOS
           },
@@ -1925,7 +1930,7 @@ const MyStack = ({navigation}) => {
             fontWeight: 'normal',
           },
           headerStyle: {
-            backgroundColor: '#4F98CA',
+            backgroundColor: '#0C4294',
             elevation: 0, // remove shadow on Android
             shadowOpacity: 0, // remove shadow on iOS
           },
@@ -1965,7 +1970,7 @@ const MyStack = ({navigation}) => {
             fontWeight: 'normal',
           },
           headerStyle: {
-            backgroundColor: '#4F98CA',
+            backgroundColor: '#0C4294',
             elevation: 0, // remove shadow on Android
             shadowOpacity: 0, // remove shadow on iOS
           },
@@ -2005,7 +2010,7 @@ const MyStack = ({navigation}) => {
             fontWeight: 'normal',
           },
           headerStyle: {
-            backgroundColor: '#4F98CA',
+            backgroundColor: '#0C4294',
             elevation: 0, // remove shadow on Android
             shadowOpacity: 0, // remove shadow on iOS
           },
@@ -2045,7 +2050,7 @@ const MyStack = ({navigation}) => {
             fontWeight: 'normal',
           },
           headerStyle: {
-            backgroundColor: '#4F98CA',
+            backgroundColor: '#0C4294',
             elevation: 0, // remove shadow on Android
             shadowOpacity: 0, // remove shadow on iOS
           },
@@ -2084,7 +2089,7 @@ const MyStack = ({navigation}) => {
             fontWeight: 'normal',
           },
           headerStyle: {
-            backgroundColor: '#4F98CA',
+            backgroundColor: '#0C4294',
             elevation: 0, // remove shadow on Android
             shadowOpacity: 0, // remove shadow on iOS
           },
