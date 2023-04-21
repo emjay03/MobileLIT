@@ -81,9 +81,9 @@ const LearningOutcomesModule2 = ({navigation}) => {
           {/* 5th learnig outcome */}
     
         </View>
-        <TouchableHighlight className="bg-[#6C63FF] py-3 px-20 rounded-md"  underlayColor="#E5E7EB"  onPress={() => navigation.navigate('Module2')}> 
-          <Text style={styles.Title} className="text-white text-[15px]">Proceed</Text>
-        </TouchableHighlight>
+        <TouchableHighlight className="bg-[#0C4294] py-3 px-20 rounded-md"  underlayColor="#105aca"  onPress={() => navigation.navigate('Module2')}> 
+            <Text style={styles.Title} className="text-white text-[15px]">Proceed</Text>
+          </TouchableHighlight>
       </View>
     </View>
   </ScrollView>
