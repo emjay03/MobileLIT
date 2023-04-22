@@ -1,7 +1,7 @@
 import { View, Text,ScrollView,TouchableHighlight,StyleSheet } from 'react-native'
 import React from 'react'
 
-const Javascript = () => {
+const Javascript = ({navigation}) => {
   return (
     <ScrollView className="bg-white ">
     <View className="px-5 ">
@@ -13,7 +13,7 @@ const Javascript = () => {
     <View className="px-5 py-2">
     <TouchableHighlight
             className=" rounded-lg shadow-md bg-[#50D890] py-4 flex justify-center items-center"
-            onPress={() => navigation.navigate('First Year Module')}>
+            onPress={() => navigation.navigate('helloworldjs')}>
             <Text
               style={styles.SemiBold}
               className="text-[#EFFFFB] text-base">

@@ -111,9 +111,14 @@ import {
                 </Text>
               </View>
             </View>
-            <TouchableHighlight className="bg-[#4F98CA] py-3 px-20 rounded-md"  underlayColor="#E5E7EB"  onPress={() => navigation.navigate('SecondYearModule1')}> 
-              <Text style={styles.Title} className="text-white text-[15px]">Proceed</Text>
-            </TouchableHighlight>
+            <TouchableHighlight
+            className="bg-[#0C4294] py-3 px-20 rounded-md"
+            underlayColor="#105aca"
+            onPress={() => navigation.navigate('SecondYearModule1')}>
+            <Text style={styles.Title} className="text-white text-[15px]">
+              Proceed
+            </Text>
+          </TouchableHighlight>
           </View>
         </View>
       </ScrollView>

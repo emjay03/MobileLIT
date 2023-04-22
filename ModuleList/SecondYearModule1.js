@@ -270,16 +270,17 @@ What is an Algorithm
 
        
       <View className="flex justify-center items-center py-4">
-      <TouchableOpacity
-            className="my-2 w-1/2 rounded-md bg-[#6C63FF] flex justify-center items-center"
+          <TouchableHighlight
+            className="my-2 w-1/2 rounded-md bg-[#0C4294] flex justify-center items-center"
+            underlayColor="#105aca"
             onPress={() => navigation.navigate('Page2')}>
             <Text
               style={styles.SemiBold}
               className="text-[17px] py-2 text-white">
               Continue
             </Text>
-          </TouchableOpacity>
-   </View>
+          </TouchableHighlight>
+        </View>
     </View>
   </ScrollView>
   )
@@ -424,13 +425,18 @@ const Page2 = ({navigation}) => {
 
 
 
-      <View className="flex justify-center items-center py-4">
-      <TouchableOpacity className="my-2 w-1/2 rounded-md bg-[#6C63FF] flex justify-center items-center" onPress={() => navigation.navigate('Page3')}>
-          <Text style={styles.SemiBold} className="text-[17px] py-2 text-white">
-           Continue
-          </Text>
-        </TouchableOpacity>
-   </View>
+   <View className="flex justify-center items-center py-4">
+          <TouchableHighlight
+            className="my-2 w-1/2 rounded-md bg-[#0C4294] flex justify-center items-center"
+            underlayColor="#105aca"
+            onPress={() => navigation.navigate('Page3')}>
+            <Text
+              style={styles.SemiBold}
+              className="text-[17px] py-2 text-white">
+              Continue
+            </Text>
+          </TouchableHighlight>
+        </View>
     </View>
   </ScrollView>
   )
@@ -603,13 +609,18 @@ contains a single data item or a collection of data items respectively
 
 
       
-      <View className="flex justify-center items-center py-4">
-      <TouchableOpacity className="my-2 w-1/2 rounded-md bg-[#6C63FF] flex justify-center items-center" onPress={() => navigation.navigate('Page4')}>
-          <Text style={styles.SemiBold} className="text-[17px] py-2 text-white">
-           Continue
-          </Text>
-        </TouchableOpacity>
-   </View>
+        <View className="flex justify-center items-center py-4">
+          <TouchableHighlight
+            className="my-2 w-1/2 rounded-md bg-[#0C4294] flex justify-center items-center"
+            underlayColor="#105aca"
+            onPress={() => navigation.navigate('Page4')}>
+            <Text
+              style={styles.SemiBold}
+              className="text-[17px] py-2 text-white">
+              Continue
+            </Text>
+          </TouchableHighlight>
+        </View>
     </View>
   </ScrollView>
   )
@@ -655,13 +666,18 @@ Example of Natural numbers as ADT
         />
         </View>
 
-      <View className="flex justify-center items-center py-4">
-      <TouchableOpacity className="my-2 w-1/2 rounded-md bg-[#6C63FF] flex justify-center items-center" onPress={() => navigation.navigate('Page5')}>
-          <Text style={styles.SemiBold} className="text-[17px] py-2 text-white">
-           Take Quiz
-          </Text>
-        </TouchableOpacity>
-   </View>
+        <View className="flex justify-center items-center py-4">
+          <TouchableHighlight
+            className="my-2 w-1/2 rounded-md bg-[#0C4294] flex justify-center items-center"
+            underlayColor="#105aca"
+            onPress={() => navigation.navigate('QuizModule1')}>
+            <Text
+              style={styles.SemiBold}
+              className="text-[17px] py-2 text-white">
+              Take Quiz
+            </Text>
+          </TouchableHighlight>
+        </View>
     </View>
   </ScrollView>
   )
@@ -676,7 +692,7 @@ const MyStack = ({navigation}) => {
   return (
 <Stack.Navigator>
       <Stack.Screen name="Module01" component={SecondYearModule1}    options={{
-          headerTitle: 'Module 2 ',
+          headerTitle: 'Module 1 ',
         
           headerTitleAlign: 'center',
           headerTitleStyle: {
@@ -687,7 +703,7 @@ const MyStack = ({navigation}) => {
             fontWeight: 'normal',
           },
           headerStyle: {
-            backgroundColor: '#4F98CA',
+            backgroundColor: '#0C4294',
             elevation: 0, // remove shadow on Android
             shadowOpacity: 0, // remove shadow on iOS
      
@@ -714,7 +730,7 @@ const MyStack = ({navigation}) => {
       />
       <Stack.Screen name="Page2" component={Page2} 
       options={{
-        headerTitle: 'Module 2 ',
+        headerTitle: 'Module 1 ',
       
         headerTitleAlign: 'center',
         headerTitleStyle: {
@@ -725,7 +741,7 @@ const MyStack = ({navigation}) => {
           fontWeight: 'normal',
         },
         headerStyle: {
-          backgroundColor: '#4F98CA',
+          backgroundColor: '#0C4294',
           elevation: 0, // remove shadow on Android
           shadowOpacity: 0, // remove shadow on iOS
    
@@ -753,7 +769,7 @@ const MyStack = ({navigation}) => {
 
 <Stack.Screen name="Page3" component={Page3} 
       options={{
-        headerTitle: 'Module 2 ',
+        headerTitle: 'Module 1 ',
       
         headerTitleAlign: 'center',
         headerTitleStyle: {
@@ -764,7 +780,7 @@ const MyStack = ({navigation}) => {
           fontWeight: 'normal',
         },
         headerStyle: {
-          backgroundColor: '#4F98CA',
+          backgroundColor: '#0C4294',
           elevation: 0, // remove shadow on Android
           shadowOpacity: 0, // remove shadow on iOS
    
@@ -793,7 +809,7 @@ const MyStack = ({navigation}) => {
 
     <Stack.Screen name="Page4" component={Page4} 
       options={{
-        headerTitle: 'Module 2 ',
+        headerTitle: 'Module 1 ',
       
         headerTitleAlign: 'center',
         headerTitleStyle: {
@@ -804,7 +820,7 @@ const MyStack = ({navigation}) => {
           fontWeight: 'normal',
         },
         headerStyle: {
-          backgroundColor: '#4F98CA',
+          backgroundColor: '#0C4294',
           elevation: 0, // remove shadow on Android
           shadowOpacity: 0, // remove shadow on iOS
    
@@ -844,7 +860,7 @@ const MyStack = ({navigation}) => {
             fontWeight: 'normal',
           },
           headerStyle: {
-            backgroundColor: '#4F98CA',
+            backgroundColor: '#0C4294',
             elevation: 0, // remove shadow on Android
             shadowOpacity: 0, // remove shadow on iOS
      
