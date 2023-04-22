@@ -34,7 +34,7 @@ const Webdevelopement = ({navigation}) => {
           <View className="py-2"></View>
           <TouchableHighlight
             className=" rounded-lg shadow-md bg-[#50D890] py-4 flex justify-center items-center"
-            onPress={() => navigation.navigate('First Year Module')}>
+            onPress={() => navigation.navigate('htmlwithcss')}>
             <Text
               style={styles.SemiBold}
               className="text-[#EFFFFB] text-base">
@@ -44,7 +44,7 @@ const Webdevelopement = ({navigation}) => {
           <View className="py-2"></View>
           <TouchableHighlight
             className=" rounded-lg shadow-md bg-[#50D890] py-4 flex justify-center items-center"
-            onPress={() => navigation.navigate('First Year Module')}>
+            onPress={() => navigation.navigate('functionalweb')}>
             <Text
               style={styles.SemiBold}
               className="text-[#EFFFFB] text-base">
@@ -54,7 +54,7 @@ const Webdevelopement = ({navigation}) => {
           <View className="py-2"></View>
           <TouchableHighlight
             className=" rounded-lg shadow-md bg-[#50D890] py-4 flex justify-center items-center"
-            onPress={() => navigation.navigate('First Year Module')}>
+            onPress={() => navigation.navigate('navigator')}>
             <Text
               style={styles.SemiBold}
               className="text-[#EFFFFB] text-base">
@@ -65,7 +65,7 @@ const Webdevelopement = ({navigation}) => {
           <View className="py-2"></View>
           <TouchableHighlight
             className=" rounded-lg shadow-md bg-[#50D890] py-4 flex justify-center items-center"
-            onPress={() => navigation.navigate('First Year Module')}>
+            onPress={() => navigation.navigate('displayimage')}>
             <Text
               style={styles.SemiBold}
               className="text-[#EFFFFB] text-base">
@@ -75,7 +75,7 @@ const Webdevelopement = ({navigation}) => {
           <View className="py-2"></View>
           <TouchableHighlight
             className=" rounded-lg shadow-md bg-[#50D890] py-4 flex justify-center items-center"
-            onPress={() => navigation.navigate('First Year Module')}>
+            onPress={() => navigation.navigate('texthover')}>
             <Text
               style={styles.SemiBold}
               className="text-[#EFFFFB] text-base">

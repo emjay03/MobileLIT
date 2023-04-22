@@ -1824,7 +1824,7 @@ const Page6 = ({navigation}) => {
             <Text
               style={styles.SemiBold}
               className="text-[17px] py-2 text-white">
-              Continue
+              Take Quiz
             </Text>
           </TouchableHighlight>
         </View>

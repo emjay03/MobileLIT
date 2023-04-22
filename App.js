@@ -210,6 +210,7 @@ function Code({ navigation }) {
 }} 
 />
 {/* Web development component */}
+{/* Hello world */}
 <Stack.Screen
  name="helloworld"
  component={Helloworld}
@@ -242,7 +243,205 @@ function Code({ navigation }) {
   ),
 }} 
 />
-{/* Javascript */}
+{/* Basic html */}
+<Stack.Screen
+ name="basichtml"
+ component={Underdevelopment}
+ options={{
+   headerTitle: 'Basic Html',
+   headerTitleAlign: 'center',
+   headerTitleStyle: {
+     fontSize: 20,
+     color: '#EFFFFB',
+     fontFamily:'Poppins-SemiBold',
+
+     
+   },
+   headerStyle: {
+    backgroundColor: '#0C4294',
+    elevation: 0, // remove shadow on Android
+    shadowOpacity: 0, // remove shadow on iOS
+    borderBottomRightRadius:15,
+    borderBottomLeftRadius:15,
+
+  },
+  headerLeft: () => (
+    <Ionicons
+      name="arrow-back"
+      size={24}
+      color="#EFFFFB"
+      onPress={() => navigation.navigate('webdevelopment')}
+      style={{ marginLeft: 16 }}
+    />
+  ),
+}} 
+/>
+{/* html with css */}
+<Stack.Screen
+ name="htmlwithcss"
+ component={Underdevelopment}
+ options={{
+   headerTitle: 'Html with css',
+   headerTitleAlign: 'center',
+   headerTitleStyle: {
+     fontSize: 20,
+     color: '#EFFFFB',
+     fontFamily:'Poppins-SemiBold',
+
+     
+   },
+   headerStyle: {
+    backgroundColor: '#0C4294',
+    elevation: 0, // remove shadow on Android
+    shadowOpacity: 0, // remove shadow on iOS
+    borderBottomRightRadius:15,
+    borderBottomLeftRadius:15,
+
+  },
+  headerLeft: () => (
+    <Ionicons
+      name="arrow-back"
+      size={24}
+      color="#EFFFFB"
+      onPress={() => navigation.navigate('webdevelopment')}
+      style={{ marginLeft: 16 }}
+    />
+  ),
+}} 
+/>
+{/* Functioanl web */}
+<Stack.Screen
+ name="functionalweb"
+ component={Underdevelopment}
+ options={{
+   headerTitle: 'Functional Web',
+   headerTitleAlign: 'center',
+   headerTitleStyle: {
+     fontSize: 20,
+     color: '#EFFFFB',
+     fontFamily:'Poppins-SemiBold',
+
+     
+   },
+   headerStyle: {
+    backgroundColor: '#0C4294',
+    elevation: 0, // remove shadow on Android
+    shadowOpacity: 0, // remove shadow on iOS
+    borderBottomRightRadius:15,
+    borderBottomLeftRadius:15,
+
+  },
+  headerLeft: () => (
+    <Ionicons
+      name="arrow-back"
+      size={24}
+      color="#EFFFFB"
+      onPress={() => navigation.navigate('webdevelopment')}
+      style={{ marginLeft: 16 }}
+    />
+  ),
+}} 
+/>
+{/* Navigator */}
+<Stack.Screen
+ name="navigator"
+ component={Underdevelopment}
+ options={{
+   headerTitle: 'Navigator',
+   headerTitleAlign: 'center',
+   headerTitleStyle: {
+     fontSize: 20,
+     color: '#EFFFFB',
+     fontFamily:'Poppins-SemiBold',
+
+     
+   },
+   headerStyle: {
+    backgroundColor: '#0C4294',
+    elevation: 0, // remove shadow on Android
+    shadowOpacity: 0, // remove shadow on iOS
+    borderBottomRightRadius:15,
+    borderBottomLeftRadius:15,
+
+  },
+  headerLeft: () => (
+    <Ionicons
+      name="arrow-back"
+      size={24}
+      color="#EFFFFB"
+      onPress={() => navigation.navigate('webdevelopment')}
+      style={{ marginLeft: 16 }}
+    />
+  ),
+}} 
+/>
+{/* Display Image */}
+<Stack.Screen
+ name="displayimage"
+ component={Underdevelopment}
+ options={{
+   headerTitle: 'Display Image',
+   headerTitleAlign: 'center',
+   headerTitleStyle: {
+     fontSize: 20,
+     color: '#EFFFFB',
+     fontFamily:'Poppins-SemiBold',
+
+     
+   },
+   headerStyle: {
+    backgroundColor: '#0C4294',
+    elevation: 0, // remove shadow on Android
+    shadowOpacity: 0, // remove shadow on iOS
+    borderBottomRightRadius:15,
+    borderBottomLeftRadius:15,
+
+  },
+  headerLeft: () => (
+    <Ionicons
+      name="arrow-back"
+      size={24}
+      color="#EFFFFB"
+      onPress={() => navigation.navigate('webdevelopment')}
+      style={{ marginLeft: 16 }}
+    />
+  ),
+}} 
+/>
+{/* Text hover */}
+<Stack.Screen
+ name="texthover"
+ component={Underdevelopment}
+ options={{
+   headerTitle: 'Text Hover',
+   headerTitleAlign: 'center',
+   headerTitleStyle: {
+     fontSize: 20,
+     color: '#EFFFFB',
+     fontFamily:'Poppins-SemiBold',
+
+     
+   },
+   headerStyle: {
+    backgroundColor: '#0C4294',
+    elevation: 0, // remove shadow on Android
+    shadowOpacity: 0, // remove shadow on iOS
+    borderBottomRightRadius:15,
+    borderBottomLeftRadius:15,
+
+  },
+  headerLeft: () => (
+    <Ionicons
+      name="arrow-back"
+      size={24}
+      color="#EFFFFB"
+      onPress={() => navigation.navigate('webdevelopment')}
+      style={{ marginLeft: 16 }}
+    />
+  ),
+}} 
+/>
+{/* Javascript
 <Stack.Screen
  name="basichtml"
  component={Basichtml}
@@ -274,6 +473,40 @@ function Code({ navigation }) {
     />
   ),
 }} 
+/> */}
+
+{/* js development component */}
+<Stack.Screen
+ name="helloworldjs"
+ component={Underdevelopment}
+ options={{
+   headerTitle: 'Hello World',
+   headerTitleAlign: 'center',
+   headerTitleStyle: {
+     fontSize: 20,
+     color: '#EFFFFB',
+     fontFamily:'Poppins-SemiBold',
+
+     
+   },
+   headerStyle: {
+    backgroundColor: '#0C4294',
+    elevation: 0, // remove shadow on Android
+    shadowOpacity: 0, // remove shadow on iOS
+    borderBottomRightRadius:15,
+    borderBottomLeftRadius:15,
+
+  },
+  headerLeft: () => (
+    <Ionicons
+      name="arrow-back"
+      size={24}
+      color="#EFFFFB"
+      onPress={() => navigation.navigate('javascript')}
+      style={{ marginLeft: 16 }}
+    />
+  ),
+}} 
 />
 </Stack.Navigator>
 
@@ -281,7 +514,7 @@ function Code({ navigation }) {
 }
 
 
-// javascript components
+ 
 
 function AboutTeam({ navigation }) {
   return (
