@@ -30,6 +30,8 @@ import SecondLearningOutcomesModule1 from './Learningoutcome/SecondLearningOutco
 import SecondLearningOutcomesModule2 from './Learningoutcome/SecondLearningOutcomesModule2';
 // Third Year Module
 import ThirdYearModule1 from './ModuleList/ThirdYearModule1';
+// Advance Year Module
+import AdvanceYearModule1 from './ModuleList/AdvanceYearModule1';
 // Year Level
 import FirstYear from './screens/FirstYear';
 import SecondYear from './screens/SecondYear';
@@ -46,6 +48,8 @@ import FourthYear from './screens/FourthYear';
 import AdvanceYear from './screens/AdvanceYear';
 import FourthLearningOutcomesModule1 from './Learningoutcome/FourthLearningOutcomesModule1';
 import Underdevelopment from './screens/Underdevelopment';
+import FourthYearModule1 from './ModuleList/FourthYearModule1';
+import AdvanceLearningOutcomesModule1 from './Learningoutcome/AdvanceLearningOutcomesModule1';
 
 
 const Stack = createStackNavigator();
@@ -83,7 +87,7 @@ function Code({ navigation }) {
  name="webdevelopment"
  component={Webdevelopement}
  options={{
-   headerTitle: 'Web Developement',
+   headerTitle: 'Web Development',
    headerTitleAlign: 'center',
    headerTitleStyle: {
      fontSize: 20,
@@ -105,7 +109,7 @@ function Code({ navigation }) {
       name="arrow-back"
       size={24}
       color="#EFFFFB"
-      onPress={() => navigation.goBack()}
+      onPress={() => navigation.navigate('code')}
       style={{ marginLeft: 16 }}
     />
   ),
@@ -893,6 +897,84 @@ function HomeStack({ navigation }) {
           ),
         }} 
       />
+      {/* Fourth Year Module */}
+      <Stack.Screen name="FourthYearModule1" component={FourthYearModule1}
+        options={{
+          headerTitle: 'Module 1 ',
+          headerShown: false,
+          headerTitleAlign: 'center',
+          headerTitleStyle: {
+            fontSize: 20,
+           
+            fontFamily:'Poppins-SemiBold',
+            color: '#EFFFFB',
+            fontWeight: 'normal',
+          },
+          headerStyle: {
+            backgroundColor: '#0C4294',
+            elevation: 0, // remove shadow on Android
+            shadowOpacity: 0, // remove shadow on iOS
+     
+          },
+          headerLeft: () => (
+            <Ionicons
+              name="arrow-back"
+              size={24}
+              color="#EFFFFB"
+              onPress={() => navigation.goBack()}
+              style={{ marginLeft: 16 }}
+            />
+          ),
+          headerRight: () => (
+            <Entypo
+              name="help-with-circle"
+              size={20}
+              color="#EFFFFB"
+              onPress={() => navigation.navigate('Guide')}
+              style={{ marginRight: 16 }}
+            />
+          ),
+        }} 
+      />
+        {/* Advance Year Module */}
+        <Stack.Screen name="AdvanceYearModule1" component={AdvanceYearModule1}
+        options={{
+          headerTitle: 'Module 1 ',
+          headerShown: false,
+          headerTitleAlign: 'center',
+          headerTitleStyle: {
+            fontSize: 20,
+           
+            fontFamily:'Poppins-SemiBold',
+            color: '#EFFFFB',
+            fontWeight: 'normal',
+          },
+          headerStyle: {
+            backgroundColor: '#0C4294',
+            elevation: 0, // remove shadow on Android
+            shadowOpacity: 0, // remove shadow on iOS
+     
+          },
+          headerLeft: () => (
+            <Ionicons
+              name="arrow-back"
+              size={24}
+              color="#EFFFFB"
+              onPress={() => navigation.goBack()}
+              style={{ marginLeft: 16 }}
+            />
+          ),
+          headerRight: () => (
+            <Entypo
+              name="help-with-circle"
+              size={20}
+              color="#EFFFFB"
+              onPress={() => navigation.navigate('Guide')}
+              style={{ marginRight: 16 }}
+            />
+          ),
+        }} 
+      />
     <Stack.Screen name="YearLevel" component={YearLevel}/>
     <Stack.Screen name="First Year Module" component={FirstYear}
         options={{
@@ -1350,6 +1432,45 @@ function HomeStack({ navigation }) {
 <Stack.Screen 
     name="FourthLearningOutcomesModule1" 
     component={FourthLearningOutcomesModule1} 
+    options={{
+      headerTitle: 'Learning Outcomes',
+      headerTitleAlign: 'center',
+      headerTitleStyle: {
+        fontSize: 20,
+       
+        fontFamily:'Poppins-SemiBold',
+        color: '#EFFFFB',
+        fontWeight: 'normal',
+      },
+      headerStyle: {
+        backgroundColor: '#0C4294',
+        elevation: 0, // remove shadow on Android
+        shadowOpacity: 0, // remove shadow on iOS
+      },
+      headerLeft: () => (
+        <Ionicons
+          name="arrow-back"
+          size={24}
+          color="#EFFFFB"
+          onPress={() => navigation.goBack()}
+          style={{ marginLeft: 16 }}
+        />
+      ),
+      headerRight: () => (
+        <Entypo
+          name="help-with-circle"
+          size={20}
+          color="#EFFFFB"
+          onPress={() => navigation.navigate('Guide')}
+          style={{ marginRight: 16 }}
+        />
+      ),
+    }} 
+  />
+
+<Stack.Screen 
+    name="AdvanceLearningOutcomesModule1" 
+    component={AdvanceLearningOutcomesModule1} 
     options={{
       headerTitle: 'Learning Outcomes',
       headerTitleAlign: 'center',

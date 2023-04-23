@@ -19,7 +19,7 @@ import {
               source={require('../screens/image/logo.png')}
             />
             <Text style={{ fontFamily:'Poppins-SemiBold' }}className="text-xl text-center  pt-2 text-[#141414]">
-            Mobile Application Development
+            Android and Java Foundation
             </Text>
             <View className="py-1"></View>
             <Text style={styles.Module} className="text-[18px] text-[#141414] ">
@@ -39,8 +39,7 @@ import {
                 </Text>
   
                 <Text style={styles.Description}  className="w-auto text-[#272727] pr-8 text-[16px]">
-                Evaluate the differences in integrating different technologies;
-
+                Learn (or review) the basics of Java.
                 </Text>
               </View>
               <View className="py-1"></View>
@@ -51,7 +50,7 @@ import {
                 </Text>
   
                  <Text style={styles.Description}  className="w-auto text-[#272727] pr-8 text-[16px]">
-                 Use Different Technologies in Integration.
+                 Get started with Android Studio.
                 </Text>
               </View>
               <View className="py-1"></View>
@@ -63,7 +62,7 @@ import {
                 </Text>
   
                 <Text style={styles.Description}  className="w-auto text-[#272727] pr-8 text-[16px]">
-                Use different technologies in Integration
+                Master Android development fundamentals.
                 </Text>
               </View>
               <View className="py-1"></View>
@@ -74,34 +73,14 @@ import {
                 </Text>
   
                  <Text style={styles.Description}  className="w-auto text-[#272727] pr-8 text-[16px]">
-                 XML Integration
+                 Use your new skills to create a fully functional Android App.
                 </Text>
               </View>
               <View className="py-1"></View>
-              {/* 5th learnig outcome */}
-              <View className="flex flex-row w-auto items-center ">
-                <Text style={styles.Number} className="  text-left text-[35px] font-bold text-[#50D890]   pr-2">
-                  5
-                </Text>
-  
-                 <Text style={styles.Description}  className="w-auto text-[#272727] pr-8 text-[16px]">
-                 Web Integration
-                </Text>
-              </View>
-              <View className="py-1"></View>
-              {/* 6th learnig outcome */}
-              <View className="flex flex-row w-auto items-center ">
-                <Text style={styles.Number} className="  text-left text-[35px] font-bold text-[#50D890]   pr-2">
-                  6
-                </Text>
-  
-                 <Text style={styles.Description}  className="w-auto text-[#272727] pr-8 text-[16px]">
-                 XML and databases
-                </Text>
-              </View>
+             
      
             </View>
-            <TouchableHighlight className="bg-[#0C4294] py-3 px-20 rounded-md"  underlayColor="#E5E7EB"  onPress={() => navigation.navigate('ThirdYearModule1')}> 
+            <TouchableHighlight className="bg-[#0C4294] py-3 px-20 rounded-md"  underlayColor="#E5E7EB"  onPress={() => navigation.navigate('FourthYearModule1')}> 
               <Text style={styles.Title} className="text-white text-[15px]">Proceed</Text>
             </TouchableHighlight>
           </View>
