@@ -28,14 +28,14 @@ import {
          <View className="w-1 px-2 p-0 absolute left-1/2 right-1/2 h-full bg-[#0C4294] border-blue-900"></View>
           {/* Open Module 1 */}
           <View className=" px-4 pb-4  ">
-          <TouchableHighlight    underlayColor="#E5E7EB"  onPress={() => navigation.navigate('LearningOutcomes')}>
+          <TouchableHighlight    underlayColor="#E5E7EB"  onPress={() => navigation.navigate('AdvanceLearningOutcomesModule1')}>
     <View className=" py-3  flex flex-row bg-[#fffdff] rounded-md h-auto shadow-lg ">
       <View className="w-1/5 flex-col justify-center text-center">
         <Text style={styles.Bold} className=" text-center text-[#50D890] ">Module </Text>
         <Text style={styles.Bold} className=" text-center text-xl  text-[#50D890]  ">1</Text>
       </View>
       <View className=" w-4/5 flex-col px-2">
-        <Text style={styles.SemiBold} className=" text-[#272727] text-[17px] "> Cloud Security and Privacy{' '}</Text>
+        <Text style={styles.SemiBold} className=" text-[#272727] text-[17px] ">Introduction To Cloud Computing{' '}</Text>
         <Text style={styles.Medium} className=" text-[#272727] text-[15px] leading-5">Programming fundamentals are the essential concepts that serve as the building blocks of computer programming..{' '}</Text>
       </View>
     </View>
@@ -44,7 +44,7 @@ import {
           {/* Close Module 1 */}
           {/* Open Module 2 */}
           <View className="p-4  ">
-          <TouchableHighlight    underlayColor="#E5E7EB"  onPress={() => navigation.navigate('LearningOutcomesModule2')}>
+          <TouchableHighlight    underlayColor="#E5E7EB"  onPress={() => navigation.navigate('AdvanceLearningOutcomesModule1')}>
     <View className=" py-3  flex flex-row bg-[#fffdff] rounded-md h-auto shadow-lg ">
       <View className="w-1/5 flex-col justify-center text-center">
       <Text style={styles.Bold} className=" text-center  text-[#50D890] ">Module </Text>

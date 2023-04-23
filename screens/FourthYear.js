@@ -35,7 +35,7 @@ import {
         <Text style={styles.Bold} className=" text-center text-xl  text-[#50D890]  ">1</Text>
       </View>
       <View className=" w-4/5 flex-col px-2">
-        <Text style={styles.SemiBold} className=" text-[#272727] text-[17px] ">Mobile Application Development{' '}</Text>
+        <Text style={styles.SemiBold} className=" text-[#272727] text-[17px] ">Android and Java Foundation{' '}</Text>
         <Text style={styles.Medium} className=" text-[#272727] text-[15px] leading-5">Programming fundamentals are the essential concepts that serve as the building blocks of computer programming..{' '}</Text>
       </View>
     </View>
