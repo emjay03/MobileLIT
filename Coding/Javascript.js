@@ -24,7 +24,7 @@ const Javascript = ({navigation}) => {
           className=" rounded-lg shadow-md bg-[#50D890] py-4 flex justify-center items-center"
           onPress={() => navigation.navigate('helloworldjs')}>
           <Text style={styles.SemiBold} className="text-[#EFFFFB] text-base">
-            Hellow World
+            Hello World
           </Text>
         </TouchableHighlight>
         <View className="py-2"></View>
