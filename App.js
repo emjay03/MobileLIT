@@ -43,7 +43,6 @@ import Javascript from './Coding/Javascript';
 import Csharp from './Coding/Csharp';
 import Java from './Coding/Java';
 import Helloworld from './Webdevelopment/Helloworld';
-import Basichtml from './Webdevelopment/Basichtml';
 import FourthYear from './screens/FourthYear';
 import AdvanceYear from './screens/AdvanceYear';
 import FourthLearningOutcomesModule1 from './Learningoutcome/FourthLearningOutcomesModule1';
