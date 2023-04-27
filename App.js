@@ -43,13 +43,20 @@ import Javascript from './Coding/Javascript';
 import Csharp from './Coding/Csharp';
 import Java from './Coding/Java';
 import Helloworld from './Webdevelopment/Helloworld';
-import Basichtml from './Webdevelopment/Basichtml';
 import FourthYear from './screens/FourthYear';
 import AdvanceYear from './screens/AdvanceYear';
 import FourthLearningOutcomesModule1 from './Learningoutcome/FourthLearningOutcomesModule1';
 import Underdevelopment from './screens/Underdevelopment';
 import FourthYearModule1 from './ModuleList/FourthYearModule1';
 import AdvanceLearningOutcomesModule1 from './Learningoutcome/AdvanceLearningOutcomesModule1';
+
+import Helloworldjs from './Javascript/Helloworldjs';
+import Declartion from './Javascript/Declaration';
+import Basicarrayjs from './Javascript/Basicarrayjs';
+import Promptjs from './Javascript/Promptjs';
+import Calculatecsharp from './Csharp/Calculatecsharp';
+
+
 
 
 const Stack = createStackNavigator();
@@ -219,7 +226,7 @@ function Code({ navigation }) {
  name="helloworld"
  component={Helloworld}
  options={{
-   headerTitle: 'Hellow world',
+   headerTitle: 'Hello world',
    headerTitleAlign: 'center',
    headerTitleStyle: {
      fontSize: 20,
@@ -482,7 +489,7 @@ function Code({ navigation }) {
 {/* js development component */}
 <Stack.Screen
  name="helloworldjs"
- component={Underdevelopment}
+ component={Helloworldjs}
  options={{
    headerTitle: 'Hello World',
    headerTitleAlign: 'center',
@@ -507,6 +514,137 @@ function Code({ navigation }) {
       size={24}
       color="#EFFFFB"
       onPress={() => navigation.navigate('javascript')}
+      style={{ marginLeft: 16 }}
+    />
+  ),
+}} 
+/>
+
+<Stack.Screen
+ name="basicarrayjs"
+ component={Basicarrayjs}
+ options={{
+   headerTitle: 'Basic Array',
+   headerTitleAlign: 'center',
+   headerTitleStyle: {
+     fontSize: 20,
+     color: '#EFFFFB',
+     fontFamily:'Poppins-SemiBold',
+
+     
+   },
+   headerStyle: {
+    backgroundColor: '#0C4294',
+    elevation: 0, // remove shadow on Android
+    shadowOpacity: 0, // remove shadow on iOS
+    borderBottomRightRadius:15,
+    borderBottomLeftRadius:15,
+
+  },
+  headerLeft: () => (
+    <Ionicons
+      name="arrow-back"
+      size={24}
+      color="#EFFFFB"
+      onPress={() => navigation.navigate('javascript')}
+      style={{ marginLeft: 16 }}
+    />
+  ),
+}} 
+/>
+<Stack.Screen
+ name="declarationjs"
+ component={Declartion}
+ options={{
+   headerTitle: 'Declartion of Variable',
+   headerTitleAlign: 'center',
+   headerTitleStyle: {
+     fontSize: 20,
+     color: '#EFFFFB',
+     fontFamily:'Poppins-SemiBold',
+
+     
+   },
+   headerStyle: {
+    backgroundColor: '#0C4294',
+    elevation: 0, // remove shadow on Android
+    shadowOpacity: 0, // remove shadow on iOS
+    borderBottomRightRadius:15,
+    borderBottomLeftRadius:15,
+
+  },
+  headerLeft: () => (
+    <Ionicons
+      name="arrow-back"
+      size={24}
+      color="#EFFFFB"
+      onPress={() => navigation.navigate('javascript')}
+      style={{ marginLeft: 16 }}
+    />
+  ),
+}} 
+/>
+
+<Stack.Screen
+ name="promptjs"
+ component={Promptjs}
+ options={{
+   headerTitle: 'Use Propmt',
+   headerTitleAlign: 'center',
+   headerTitleStyle: {
+     fontSize: 20,
+     color: '#EFFFFB',
+     fontFamily:'Poppins-SemiBold',
+
+     
+   },
+   headerStyle: {
+    backgroundColor: '#0C4294',
+    elevation: 0, // remove shadow on Android
+    shadowOpacity: 0, // remove shadow on iOS
+    borderBottomRightRadius:15,
+    borderBottomLeftRadius:15,
+
+  },
+  headerLeft: () => (
+    <Ionicons
+      name="arrow-back"
+      size={24}
+      color="#EFFFFB"
+      onPress={() => navigation.navigate('javascript')}
+      style={{ marginLeft: 16 }}
+    />
+  ),
+}} 
+/>
+{/* C# development component */}
+<Stack.Screen
+ name="calculatecsharp"
+ component={Calculatecsharp}
+ options={{
+   headerTitle: 'Calculate two numbers',
+   headerTitleAlign: 'center',
+   headerTitleStyle: {
+     fontSize: 20,
+     color: '#EFFFFB',
+     fontFamily:'Poppins-SemiBold',
+
+     
+   },
+   headerStyle: {
+    backgroundColor: '#0C4294',
+    elevation: 0, // remove shadow on Android
+    shadowOpacity: 0, // remove shadow on iOS
+    borderBottomRightRadius:15,
+    borderBottomLeftRadius:15,
+
+  },
+  headerLeft: () => (
+    <Ionicons
+      name="arrow-back"
+      size={24}
+      color="#EFFFFB"
+      onPress={() => navigation.navigate('csharp')}
       style={{ marginLeft: 16 }}
     />
   ),

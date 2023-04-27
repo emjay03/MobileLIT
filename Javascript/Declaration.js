@@ -3,9 +3,9 @@ import {
   Text,
   StyleSheet,
   TouchableHighlight,
-
-  Dimensions
-
+  Dimensions,
+  Modal,
+  Button,
 } from 'react-native';
 import Clipboard from '@react-native-community/clipboard';
 import React, {useState} from 'react';
@@ -13,7 +13,7 @@ import {ScrollView} from 'react-native-gesture-handler';
 import VideoPlayer from 'react-native-video-controls';
 const {width, height} = Dimensions.get('window');
 
-const Helloworld = () => {
+const Declartion = () => {
   const [isPaused, setIsPaused] = useState(true);
   const [isFullScreen, setIsFullScreen] = useState(false);
   const [resizeMode, setResizeMode] = useState('contain');
@@ -21,13 +21,29 @@ const Helloworld = () => {
   const toggleResizeModeOnFullscreen = () => {
     setResizeMode(isFullScreen ? 'contain' : 'stretch');
   };
- 
-function copyCodeToClipboard() {
-  const code = `<!DOCTYPE html>\n<html>\n<head>\n<title>Hello World</title>\n</head>\n<body>\n<p>Hello World.</p>\n</body>\n</html>`;
-  Clipboard.setString(code);
-  alert('Code copied to clipboard!');
-}
 
+  function copyCodeToClipboard() {
+    const code = `// Declare a variable called 'greeting' and assign it a value
+    let greeting = "Hello, world!";
+    
+    // Print the value of the 'greeting' variable to the console
+    console.log(greeting);
+    
+    // Declare another variable called 'age' and assign it a value
+    let age = 25;
+    
+    // Print the value of the 'age' variable to the console
+    console.log(age);
+    
+    // Declare a constant variable called 'PI' and assign it the value of pi
+    const PI = 3.14159265359;
+    
+    // Print the value of the 'PI' variable to the console
+    console.log(PI);
+    `;
+    Clipboard.setString(code);
+    alert('Code copied to clipboard!');
+  }
 
   return (
     <ScrollView className="bg-white">
@@ -43,17 +59,13 @@ function copyCodeToClipboard() {
           onFullscreenPlayerWillDismiss={() => {
             toggleResizeModeOnFullscreen();
           }}
-
           paused={isPaused}
-
         />
       </View>
       <View className="px-5">
         <View className="py-2">
           <Text style={styles.SemiBold} className="text-xl py-2 text-[#272727]">
-
-          Source Code
-
+            Source Code
           </Text>
         </View>
         <View className="py-2">
@@ -63,44 +75,57 @@ function copyCodeToClipboard() {
                 <Text
                   style={styles.Regular}
                   className="text-base text-[#272727]">
-                  {'<!DOCTYPE html>'}
-
-                 {'\n'} 
-
+                  {
+                    '// Declare a variable called "greeting"  and assign it a value'
+                  }
+                  {'\n'}
                   {'\n'}
 
-                  {'<html>'}
+                  {'let greeting = "Hello, world!";'}
                   {'\n'}
-                  {'<head>'}
+
+                  {
+                    '// Print the value of the "greeting" variable to the console'
+                  }
                   {'\n'}
-                  {'<title>Hellow World</title>'}
+                  {'console.log(greeting);'}
                   {'\n'}
-                  {'</head>'}
                   {'\n'}
-                  {'<body>'}
+                  {
+                    '// Declare another variable called "age" and assign it a value'
+                  }
                   {'\n'}
-                  {'<p>Hellow World.</p>'}
+                  {'let age = 25;'}
                   {'\n'}
-                  {'</body>'}
+
+                  {'// Print the value of the "age" variable to the console'}
                   {'\n'}
-                  {'</html>'}
+                  {'console.log(age);'}
                   {'\n'}
+
+                  {
+                    '//Declare a constant variable called "PI" and assign it the value of pi'
+                  }
+                  {'\n'}
+                  {'\n'}
+                  {'const PI = 3.14159265359;'}
+                  {'\n'}
+                  {'// Print the value of the "PI" variable to the console'}
+                  {'\n'}
+                  {'console.log(PI);'}
                 </Text>
               </View>
             </View>
           </View>
         </View>
         <View className="flex justify-center items-center ">
-          
-
           <TouchableHighlight
             className="bg-[#0C4294] py-3 px-20 rounded-md"
             underlayColor="#105aca"
             onPress={copyCodeToClipboard}>
-            <Text style={styles.Title} className="text-white text-[15px]">
+            <Text style={styles.SemiBold} className="text-white text-[15px]">
               Copy
             </Text>
-
           </TouchableHighlight>
         </View>
       </View>
@@ -127,4 +152,4 @@ const styles = StyleSheet.create({
     flex: 1,
   },
 });
-export default Helloworld;
+export default Declartion;
