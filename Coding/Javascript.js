@@ -25,14 +25,12 @@ const Javascript = ({navigation}) => {
           onPress={() => navigation.navigate('helloworldjs')}>
           <Text style={styles.SemiBold} className="text-[#EFFFFB] text-base">
             Hello World
-
-        
-
           </Text>
         </TouchableHighlight>
         <View className="py-2"></View>
         <TouchableHighlight
           className=" rounded-lg shadow-md bg-[#50D890] py-4 flex justify-center items-center"
+
 
           onPress={() => navigation.navigate('declarationjs')}>
 
@@ -44,7 +42,6 @@ const Javascript = ({navigation}) => {
         <View className="py-2"></View>
         <TouchableHighlight
           className=" rounded-lg shadow-md bg-[#50D890] py-4 flex justify-center items-center"
-
           onPress={() => navigation.navigate('basicarrayjs')}>
 
           <Text style={styles.SemiBold} className="text-[#EFFFFB] text-base">
@@ -56,7 +53,7 @@ const Javascript = ({navigation}) => {
           className=" rounded-lg shadow-md bg-[#50D890] py-4 flex justify-center items-center"
 
           onPress={() => navigation.navigate('promptjs')}>
- 
+
           <Text style={styles.SemiBold} className="text-[#EFFFFB] text-base">
             Use prompt
           </Text>

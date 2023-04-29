@@ -15,7 +15,6 @@ import {Alert} from 'react-native';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import Entypo from 'react-native-vector-icons/Entypo';
 import Ionicons from 'react-native-vector-icons/Ionicons';
-import Footer from './Footer';
 const QuizModule1 = ({navigation}) => {
   const questions = [
     {

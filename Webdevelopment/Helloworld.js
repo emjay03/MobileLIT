@@ -67,7 +67,8 @@ function copyCodeToClipboard() {
 
                  {'\n'} 
 
-                  {'\n'}
+
+                 {'\n'} 
 
                   {'<html>'}
                   {'\n'}
@@ -93,14 +94,11 @@ function copyCodeToClipboard() {
         <View className="flex justify-center items-center ">
           
 
-          <TouchableHighlight
-            className="bg-[#0C4294] py-3 px-20 rounded-md"
-            underlayColor="#105aca"
-            onPress={copyCodeToClipboard}>
-            <Text style={styles.Title} className="text-white text-[15px]">
-              Copy
-            </Text>
+          <TouchableHighlight className="bg-[#0C4294] py-3 px-20 rounded-md"  underlayColor="#105aca"   onPress={copyCodeToClipboard}> 
+            <Text style={styles.SemiBold} className="text-white text-[15px]">Copy</Text>
 
+
+        
           </TouchableHighlight>
         </View>
       </View>
