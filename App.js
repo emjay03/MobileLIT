@@ -54,7 +54,7 @@ import Declartion from './Javascript/Declaration';
 import Basicarrayjs from './Javascript/Basicarrayjs';
 import Promptjs from './Javascript/Promptjs';
 import Calculatecsharp from './Csharp/Calculatecsharp';
-
+ 
 
 
 const Stack = createStackNavigator();
