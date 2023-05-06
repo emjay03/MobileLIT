@@ -33,6 +33,7 @@ const Javascript = ({navigation}) => {
  
           onPress={() => navigation.navigate('declarationjs')}>
  
+ 
           <Text style={styles.SemiBold} className="text-[#EFFFFB] text-base">
             Declaration of Variable
           </Text>
@@ -52,7 +53,6 @@ const Javascript = ({navigation}) => {
  
           onPress={() => navigation.navigate('promptjs')}>
  
-
  
           <Text style={styles.SemiBold} className="text-[#EFFFFB] text-base">
             Use prompt

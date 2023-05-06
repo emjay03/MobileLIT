@@ -10,8 +10,9 @@ const Coding = ({navigation}) => {
     <View className="bg-white flex justify-center items-center">
       <View className="px-9 py-6 flex justify-center items-center h-full ">
         <View className="flex flex-row gap-5">
+        {/* flex justify-center items-center bg-white w-[50%]  border-[.44px] border-[#272727] py-6 rounded-md */}
           <TouchableHighlight
-            className="flex justify-center items-center bg-white w-[50%]  shadow-md py-6 rounded-md"
+            className="flex justify-center items-center bg-white w-[50%]  border-[4px] border-[#50D890] py-6 rounded-md"
             underlayColor="#E5E7EB"
             onPress={() => navigation.navigate('webdevelopment')}>
             <View className="flex justify-center items-center">
@@ -23,7 +24,7 @@ const Coding = ({navigation}) => {
           </TouchableHighlight>
 
           <TouchableHighlight
-            className="flex justify-center items-center bg-white w-[50%]  shadow-md py-6 rounded-md"
+            className="flex justify-center items-center bg-white w-[50%]  border-[4px] border-[#50D890] py-6 rounded-md"
             underlayColor="#E5E7EB"
             onPress={() => navigation.navigate('javascript')}>
             <View className="  flex justify-center items-center">
@@ -38,7 +39,7 @@ const Coding = ({navigation}) => {
         <View className="py-2"></View>
         <View className="flex flex-row gap-5">
           <TouchableHighlight
-            className="flex justify-center items-center bg-white w-[50%]  shadow-md py-6 rounded-md"
+            className="flex justify-center items-center bg-white w-[50%]  border-[4px] border-[#50D890] py-6 rounded-md"
             underlayColor="#E5E7EB"
             onPress={() => navigation.navigate('csharp')}>
             <View className="  flex justify-center items-center">
@@ -53,7 +54,7 @@ const Coding = ({navigation}) => {
             </View>
           </TouchableHighlight>
           <TouchableHighlight
-            className="flex justify-center items-center bg-white w-[50%]  shadow-md py-6 rounded-md"
+            className="flex justify-center items-center bg-white w-[50%]  border-[4px] border-[#50D890] py-6 rounded-md"
             underlayColor="#E5E7EB"
             onPress={() => navigation.navigate('java')}>
             <View className="  flex justify-center items-center">
@@ -67,13 +68,13 @@ const Coding = ({navigation}) => {
         {/* third line */}
         <View className="py-2"></View>
         <View className="flex flex-row gap-5">
-          <View className=" flex justify-center items-center bg-white w-[50%] shadow-md p-6">
+          <View className="flex justify-center items-center bg-white w-[50%]  border-[4px] border-[#50D890] py-6 rounded-md">
             <Fontisto name="python" size={54} color="#50D890" />
             <Text style={styles.SemiBold} className="text-[#272727]">
               Python
             </Text>
           </View>
-          <View className="  flex justify-center items-center bg-white w-[50%]  shadow-md py-6 rounded-md">
+          <View className=" flex justify-center items-center bg-white w-[50%]  border-[4px] border-[#50D890] py-6 rounded-md">
             <MaterialCommunityIcons
               name="language-c"
               size={54}
@@ -87,7 +88,7 @@ const Coding = ({navigation}) => {
         {/* fourth line */}
         <View className="py-2"></View>
         <View className="flex flex-row gap-5">
-          <View className=" flex justify-center items-center bg-white w-[50%] shadow-md p-6">
+          <View className="  flex justify-center items-center bg-white w-[50%]  border-[4px] border-[#50D890] py-6 rounded-md">
             <MaterialCommunityIcons
               name="language-typescript"
               size={54}
@@ -97,7 +98,7 @@ const Coding = ({navigation}) => {
               Typerscript
             </Text>
           </View>
-          <View className="  flex justify-center items-center bg-white w-[50%]  shadow-md py-6 rounded-md">
+          <View className="   flex justify-center items-center bg-white w-[50%]  border-[4px] border-[#50D890] py-6 rounded-md">
             <MaterialCommunityIcons
               name="language-php"
               size={54}
