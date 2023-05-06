@@ -3,7 +3,11 @@ import {
   Text,
   StyleSheet,
   TouchableHighlight,
+ 
   Dimensions
+ 
+ 
+ 
 } from 'react-native';
 import Clipboard from '@react-native-community/clipboard';
 import React, {useState} from 'react';
@@ -42,13 +46,21 @@ function copyCodeToClipboard() {
           onFullscreenPlayerWillDismiss={() => {
             toggleResizeModeOnFullscreen();
           }}
+ 
           paused={isPaused}
+ 
+ 
+ 
         />
       </View>
       <View className="px-5">
         <View className="py-2">
           <Text style={styles.SemiBold} className="text-xl py-2 text-[#272727]">
+ 
           Source Code
+ 
+ 
+ 
           </Text>
         </View>
         <View className="py-2">
@@ -59,7 +71,11 @@ function copyCodeToClipboard() {
                   style={styles.Regular}
                   className="text-base text-[#272727]">
                   {'<!DOCTYPE html>'}
+ 
                  {'\n'} 
+ 
+ 
+ 
                   {'<html>'}
                   {'\n'}
                   {'<head>'}
@@ -83,8 +99,14 @@ function copyCodeToClipboard() {
         </View>
         <View className="flex justify-center items-center ">
           
+ 
+ 
           <TouchableHighlight className="bg-[#0C4294] py-3 px-20 rounded-md"  underlayColor="#105aca"   onPress={copyCodeToClipboard}> 
             <Text style={styles.SemiBold} className="text-white text-[15px]">Copy</Text>
+ 
+
+ 
+ 
           </TouchableHighlight>
         </View>
       </View>
