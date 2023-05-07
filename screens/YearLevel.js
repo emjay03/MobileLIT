@@ -1,7 +1,92 @@
-import {View, Text, TouchableHighlight, StyleSheet} from 'react-native';
+import {View, Text, TouchableHighlight, StyleSheet,Alert} from 'react-native';
 import React, {useState, useEffect} from 'react';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
+const firstyear = (navigation) => {
+  Alert.alert(
+    'Confirmation',
+    'Are you sure you want to proceed in First Year Level?',
+    [
+      {
+        text: 'Cancel',
+        style: 'cancel',
+      },
+      {
+        text: 'Proceed',
+        onPress:() => navigation.navigate('First Year Module'),
+      },
+    ],  
+    { cancelable: false }
+  );
+};
+const secondyear = (navigation) => {
+  Alert.alert(
+    'Confirmation',
+    'Are you sure you want to proceed in Second Year Level?',
+    [
+      {
+        text: 'Cancel',
+        style: 'cancel',
+      },
+      {
+        text: 'Proceed',
+        onPress:() => navigation.navigate('Second Year Module'),
+      },
+    ],  
+    { cancelable: false }
+  );
+};
+const thirdyear = (navigation) => {
+  Alert.alert(
+    'Confirmation',
+    'Are you sure you want to proceed in Third Year Level?',
+    [
+      {
+        text: 'Cancel',
+        style: 'cancel',
+      },
+      {
+        text: 'Proceed',
+        onPress:() => navigation.navigate('Third Year Module'),
+      },
+    ],  
+    { cancelable: false }
+  );
+};
 
+const fourthyear = (navigation) => {
+  Alert.alert(
+    'Confirmation',
+    'Are you sure you want to proceed in Fourth Year Level?',
+    [
+      {
+        text: 'Cancel',
+        style: 'cancel',
+      },
+      {
+        text: 'Proceed',
+        onPress:() => navigation.navigate('Fourth Year Module'),
+      },
+    ],  
+    { cancelable: false }
+  );
+};
+const advanceyear = (navigation) => {
+  Alert.alert(
+    'Confirmation',
+    'Are you sure you want to proceed in Advance Year Level?',
+    [
+      {
+        text: 'Cancel',
+        style: 'cancel',
+      },
+      {
+        text: 'Proceed',
+        onPress:() => navigation.navigate('Advance Year Module'),
+      },
+    ],  
+    { cancelable: false }
+  );
+};
 const YearLevel = ({navigation}) => {
   return (
     <View>
@@ -29,7 +114,7 @@ const YearLevel = ({navigation}) => {
           </View>
           <View className="w-[20%]  flex items-center justify-center   ">
             <TouchableHighlight
-              onPress={() => navigation.navigate('First Year Module')}
+            onPress={() => firstyear(navigation)}
               underlayColor={{color: '#e2e2e2', borderRadius: 10}}>
               <View className="bg-[#50D890] p-3 rounded-3xl">
                 <MaterialIcons
@@ -53,7 +138,7 @@ const YearLevel = ({navigation}) => {
           </View>
           <View className="w-[20%]  flex items-center justify-center   ">
             <TouchableHighlight
-              onPress={() => navigation.navigate('Second Year Module')}
+             onPress={() => secondyear(navigation)}
               underlayColor={{color: '#e2e2e2', borderRadius: 10}}>
               <View className="bg-[#50D890] p-3 rounded-3xl">
                 <MaterialIcons
@@ -77,7 +162,7 @@ const YearLevel = ({navigation}) => {
           </View>
           <View className="w-[20%]  flex items-center justify-center   ">
             <TouchableHighlight
-              onPress={() => navigation.navigate('Third Year Module')}
+               onPress={() => thirdyear(navigation)}
               underlayColor={{color: '#e2e2e2', borderRadius: 10}}>
               <View className="bg-[#50D890] p-3 rounded-3xl">
                 <MaterialIcons
@@ -100,7 +185,7 @@ const YearLevel = ({navigation}) => {
           </View>
           <View className="w-[20%]  flex items-center justify-center   ">
             <TouchableHighlight
-              onPress={() => navigation.navigate('Fourth Year Module')}
+               onPress={() => fourthyear(navigation)}
               underlayColor={{color: '#e2e2e2', borderRadius: 10}}>
               <View className="bg-[#50D890] p-3 rounded-3xl">
                 <MaterialIcons
@@ -123,7 +208,7 @@ const YearLevel = ({navigation}) => {
           </View>
           <View className="w-[20%]  flex items-center justify-center   ">
             <TouchableHighlight
-              onPress={() => navigation.navigate('Advance Year Module')}
+              onPress={() => advanceyear(navigation)}
               underlayColor={{color: '#e2e2e2', borderRadius: 10}}>
               <View className="bg-[#50D890] p-3 rounded-3xl">
                 <MaterialIcons
