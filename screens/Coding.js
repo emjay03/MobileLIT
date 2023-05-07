@@ -1,4 +1,4 @@
-import {View, Text, StyleSheet, TouchableHighlight} from 'react-native';
+import {View, Text, StyleSheet, TouchableHighlight, Image} from 'react-native';
 import React from 'react';
 import {ScrollView} from 'react-native-gesture-handler';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
@@ -8,30 +8,58 @@ import Fontisto from 'react-native-vector-icons/Fontisto';
 const Coding = ({navigation}) => {
   return (
     <View className="bg-white flex justify-center items-center">
-      <View className="px-9 py-6 flex justify-center items-center h-full ">
+      <View className="px-9 py-6  flex justify-center items-center h-full ">
         <View className="flex flex-row gap-5">
-        {/* flex justify-center items-center bg-white w-[50%]  border-[.44px] border-[#272727] py-6 rounded-md */}
-          <TouchableHighlight
-            className="flex justify-center items-center bg-white w-[50%]  border-[4px] border-[#50D890] py-6 rounded-md"
+          {/* flex justify-center items-center bg-white w-[45%]  border-[.44px] border-[#272727] py-6 rounded-md */}
+          {/* <TouchableHighlight
+            className="flex justify-center items-center border-2 bg-white w-[50%]    py-6 rounded-md"
             underlayColor="#E5E7EB"
             onPress={() => navigation.navigate('webdevelopment')}>
             <View className="flex justify-center items-center">
-              <MaterialIcons name="web" size={54} color="#50D890" />
-              <Text style={styles.SemiBold} className="text-[#272727]">
-                Web Developement
-              </Text>
+            <Image
+            className="  "
+            source={require('../Coding/image/webdevelopment.jpg')}
+          />
+             
+         
+            </View>
+          </TouchableHighlight> */}
+          <TouchableHighlight
+            className="    bg-[#f2f2f2] shadow-lg w-[50%]   rounded-md"
+            underlayColor="#E5E7EB"
+            onPress={() => navigation.navigate('webdevelopment')}>
+            <View className="flex justify-center items-center">
+              <Image
+                className="rounded-t-lg"
+                source={require('../Coding/image/webdevelopment.jpg')}
+                style={{width: 150, height: 100}}
+              />
+              <View className="pt-2">
+                <Text
+                  style={styles.SemiBold}
+                  className="text-center text-[#272727]">
+                  Web Development
+                </Text>
+              </View>
             </View>
           </TouchableHighlight>
-
           <TouchableHighlight
-            className="flex justify-center items-center bg-white w-[50%]  border-[4px] border-[#50D890] py-6 rounded-md"
+            className="    bg-[#f2f2f2] shadow-lg w-[50%]   rounded-md"
             underlayColor="#E5E7EB"
             onPress={() => navigation.navigate('javascript')}>
-            <View className="  flex justify-center items-center">
-              <Ionicons name="logo-javascript" size={54} color="#50D890" />
-              <Text style={styles.SemiBold} className="text-[#272727]">
-                Javascript
-              </Text>
+            <View className="flex justify-center items-center">
+              <Image
+                className="rounded-t-lg"
+                source={require('../Coding/image/javascript.jpg')}
+                style={{width: 150, height: 100}}
+              />
+              <View className="pt-2">
+                <Text
+                  style={styles.SemiBold}
+                  className="text-center text-[#272727]">
+                  Javascript
+                </Text>
+              </View>
             </View>
           </TouchableHighlight>
         </View>
@@ -39,75 +67,130 @@ const Coding = ({navigation}) => {
         <View className="py-2"></View>
         <View className="flex flex-row gap-5">
           <TouchableHighlight
-            className="flex justify-center items-center bg-white w-[50%]  border-[4px] border-[#50D890] py-6 rounded-md"
+            className="    bg-[#f2f2f2] shadow-lg w-[50%]   rounded-md"
             underlayColor="#E5E7EB"
             onPress={() => navigation.navigate('csharp')}>
-            <View className="  flex justify-center items-center">
-              <MaterialCommunityIcons
-                name="language-csharp"
-                size={54}
-                color="#50D890"
+            <View className="flex justify-center items-center">
+              <Image
+                className="rounded-t-lg"
+                source={require('../Coding/image/csharp.jpg')}
+                style={{width: 150, height: 100}}
               />
-              <Text style={styles.SemiBold} className="text-[#272727]">
-                C#
-              </Text>
+              <View className="pt-2">
+                <Text
+                  style={styles.SemiBold}
+                  className="text-center text-[#272727]">
+                  C#
+                </Text>
+              </View>
             </View>
           </TouchableHighlight>
+
           <TouchableHighlight
-            className="flex justify-center items-center bg-white w-[50%]  border-[4px] border-[#50D890] py-6 rounded-md"
+            className="    bg-[#f2f2f2] shadow-lg w-[50%]   rounded-md"
             underlayColor="#E5E7EB"
             onPress={() => navigation.navigate('java')}>
-            <View className="  flex justify-center items-center">
-              <Fontisto name="java" size={54} color="#50D890" />
-              <Text style={styles.SemiBold} className="text-[#272727]">
-                Java
-              </Text>
+            <View className="flex justify-center items-center">
+              <Image
+                className="rounded-t-lg"
+                source={require('../Coding/image/java.jpg')}
+                style={{width: 150, height: 100}}
+              />
+              <View className="pt-2">
+                <Text
+                  style={styles.SemiBold}
+                  className="text-center text-[#272727]">
+                  Java
+                </Text>
+              </View>
             </View>
           </TouchableHighlight>
         </View>
         {/* third line */}
         <View className="py-2"></View>
         <View className="flex flex-row gap-5">
-          <View className="flex justify-center items-center bg-white w-[50%]  border-[4px] border-[#50D890] py-6 rounded-md">
-            <Fontisto name="python" size={54} color="#50D890" />
-            <Text style={styles.SemiBold} className="text-[#272727]">
-              Python
-            </Text>
-          </View>
-          <View className=" flex justify-center items-center bg-white w-[50%]  border-[4px] border-[#50D890] py-6 rounded-md">
-            <MaterialCommunityIcons
-              name="language-c"
-              size={54}
-              color="#50D890"
-            />
-            <Text style={styles.SemiBold} className="text-[#272727]">
-              C
-            </Text>
-          </View>
+          <TouchableHighlight
+            className="    bg-[#f2f2f2] shadow-lg w-[50%]   rounded-md"
+            underlayColor="#E5E7EB"
+            onPress={() => navigation.navigate('csharp')}>
+            <View className="flex justify-center items-center">
+              <Image
+                className="rounded-t-lg"
+                source={require('../Coding/image/python.jpg')}
+                style={{width: 150, height: 100}}
+              />
+              <View className="pt-2">
+                <Text
+                  style={styles.SemiBold}
+                  className="text-center text-[#272727]">
+                  Python
+                </Text>
+              </View>
+            </View>
+          </TouchableHighlight>
+
+          <TouchableHighlight
+            className="    bg-[#f2f2f2] shadow-lg w-[50%]   rounded-md"
+            underlayColor="#E5E7EB"
+            onPress={() => navigation.navigate('java')}>
+            <View className="flex justify-center items-center">
+              <Image
+                className="rounded-t-lg"
+                source={require('../Coding/image/c.jpg')}
+                style={{width: 150, height: 100}}
+              />
+              <View className="pt-2">
+                <Text
+                  style={styles.SemiBold}
+                  className="text-center text-[#272727]">
+                  C
+                </Text>
+              </View>
+            </View>
+          </TouchableHighlight>
         </View>
         {/* fourth line */}
         <View className="py-2"></View>
         <View className="flex flex-row gap-5">
-          <View className="  flex justify-center items-center bg-white w-[50%]  border-[4px] border-[#50D890] py-6 rounded-md">
-            <MaterialCommunityIcons
-              name="language-typescript"
-              size={54}
-              color="#50D890"
-            />
-            <Text style={styles.SemiBold} className="text-[#272727]">
-              Typerscript
-            </Text>
-          </View>
-          <View className="   flex justify-center items-center bg-white w-[50%]  border-[4px] border-[#50D890] py-6 rounded-md">
-            <MaterialCommunityIcons
-              name="language-php"
-              size={54}
-              color="#50D890"
-            />
-            <Text style={styles.SemiBold} className="text-[#272727]">
-              Php
-            </Text>
-          </View>
+          <TouchableHighlight
+            className="    bg-[#f2f2f2] shadow-lg w-[50%]   rounded-md"
+            underlayColor="#E5E7EB"
+            onPress={() => navigation.navigate('csharp')}>
+            <View className="flex justify-center items-center">
+              <Image
+                className="rounded-t-lg"
+                source={require('../Coding/image/typescript.jpg')}
+                style={{width: 150, height: 100}}
+              />
+              <View className="pt-2">
+                <Text
+                  style={styles.SemiBold}
+                  className="text-center text-[#272727]">
+                  Typescript
+                </Text>
+              </View>
+            </View>
+          </TouchableHighlight>
+
+          <TouchableHighlight
+            className="    bg-[#f2f2f2] shadow-lg w-[50%]   rounded-md"
+            underlayColor="#E5E7EB"
+            onPress={() => navigation.navigate('java')}>
+            <View className="flex justify-center items-center">
+              <Image
+                className="rounded-t-lg"
+                source={require('../Coding/image/php.jpg')}
+                style={{width: 150, height: 100}}
+              />
+              <View className="pt-2">
+                <Text
+                  style={styles.SemiBold}
+                  className="text-center text-[#272727]">
+                  Php
+                </Text>
+              </View>
+            </View>
+          </TouchableHighlight>
         </View>
       </View>
     </View>
