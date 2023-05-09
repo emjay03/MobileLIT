@@ -54,7 +54,10 @@ import Declartion from './Javascript/Declaration';
 import Basicarrayjs from './Javascript/Basicarrayjs';
 import Promptjs from './Javascript/Promptjs';
 import Calculatecsharp from './Csharp/Calculatecsharp';
- 
+import Python from './Coding/Python';
+import C from './Coding/C';
+import Typescript from './Coding/Typescript';
+import Php from './Coding/Php';
 
 
 const Stack = createStackNavigator();
@@ -189,6 +192,138 @@ function Code({ navigation }) {
 <Stack.Screen
  name="java"
  component={Java}
+ options={{
+   headerTitle: 'Java',
+   headerTitleAlign: 'center',
+   headerTitleStyle: {
+     fontSize: 20,
+     color: '#EFFFFB',
+     fontFamily:'Poppins-SemiBold',
+
+     
+   },
+   headerStyle: {
+    backgroundColor: '#0C4294',
+    elevation: 0, // remove shadow on Android
+    shadowOpacity: 0, // remove shadow on iOS
+    borderBottomRightRadius:15,
+    borderBottomLeftRadius:15,
+
+  },
+  headerLeft: () => (
+    <Ionicons
+      name="arrow-back"
+      size={24}
+      color="#EFFFFB"
+      onPress={() => navigation.goBack()}
+      style={{ marginLeft: 16 }}
+    />
+  ),
+}} 
+/>
+{/* Python */}
+<Stack.Screen
+ name="python"
+ component={Python}
+ options={{
+   headerTitle: 'Java',
+   headerTitleAlign: 'center',
+   headerTitleStyle: {
+     fontSize: 20,
+     color: '#EFFFFB',
+     fontFamily:'Poppins-SemiBold',
+
+     
+   },
+   headerStyle: {
+    backgroundColor: '#0C4294',
+    elevation: 0, // remove shadow on Android
+    shadowOpacity: 0, // remove shadow on iOS
+    borderBottomRightRadius:15,
+    borderBottomLeftRadius:15,
+
+  },
+  headerLeft: () => (
+    <Ionicons
+      name="arrow-back"
+      size={24}
+      color="#EFFFFB"
+      onPress={() => navigation.goBack()}
+      style={{ marginLeft: 16 }}
+    />
+  ),
+}} 
+/>
+{/* C */}
+<Stack.Screen
+ name="c"
+ component={C}
+ options={{
+   headerTitle: 'Java',
+   headerTitleAlign: 'center',
+   headerTitleStyle: {
+     fontSize: 20,
+     color: '#EFFFFB',
+     fontFamily:'Poppins-SemiBold',
+
+     
+   },
+   headerStyle: {
+    backgroundColor: '#0C4294',
+    elevation: 0, // remove shadow on Android
+    shadowOpacity: 0, // remove shadow on iOS
+    borderBottomRightRadius:15,
+    borderBottomLeftRadius:15,
+
+  },
+  headerLeft: () => (
+    <Ionicons
+      name="arrow-back"
+      size={24}
+      color="#EFFFFB"
+      onPress={() => navigation.goBack()}
+      style={{ marginLeft: 16 }}
+    />
+  ),
+}} 
+/>
+{/* Typescript */}
+<Stack.Screen
+ name="typescript"
+ component={Typescript}
+ options={{
+   headerTitle: 'Java',
+   headerTitleAlign: 'center',
+   headerTitleStyle: {
+     fontSize: 20,
+     color: '#EFFFFB',
+     fontFamily:'Poppins-SemiBold',
+
+     
+   },
+   headerStyle: {
+    backgroundColor: '#0C4294',
+    elevation: 0, // remove shadow on Android
+    shadowOpacity: 0, // remove shadow on iOS
+    borderBottomRightRadius:15,
+    borderBottomLeftRadius:15,
+
+  },
+  headerLeft: () => (
+    <Ionicons
+      name="arrow-back"
+      size={24}
+      color="#EFFFFB"
+      onPress={() => navigation.goBack()}
+      style={{ marginLeft: 16 }}
+    />
+  ),
+}} 
+/>
+{/* php */}
+<Stack.Screen
+ name="php"
+ component={Php}
  options={{
    headerTitle: 'Java',
    headerTitleAlign: 'center',
