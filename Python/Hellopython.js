@@ -13,7 +13,10 @@ import {
   import VideoPlayer from 'react-native-video-controls';
   const {width, height} = Dimensions.get('window');
   
-  const Calculatecsharp = () => {
+  const Hellopython = () => {
+    const code = `
+    print("Hello, World!")`.split('\n').map(line => line.trim()).join('\n') + '\n';
+
     const [isPaused, setIsPaused] = useState(true);
     const [isFullScreen, setIsFullScreen] = useState(false);
     const [resizeMode, setResizeMode] = useState('contain');
@@ -21,38 +24,11 @@ import {
     const toggleResizeModeOnFullscreen = () => {
       setResizeMode(isFullScreen ? 'contain' : 'stretch');
     };
-    const code =
-    `
-    using System;
-
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            int num1 = 5;
-            int num2 = 7;
-            int sum = num1 + num2;
-            Console.WriteLine("The sum of {0} and {1} is {2}", num1, num2, sum);
-        }
-    }`
-      .split('\n')
-      .map(line => line.trim())
-      .join('\n') + '\n';
+  
     function copyCodeToClipboard() {
-      const code = `using System;
-
-      class Program
-      {
-          static void Main(string[] args)
-          {
-              int num1 = 5;
-              int num2 = 7;
-              int sum = num1 + num2;
-              Console.WriteLine("The sum of {0} and {1} is {2}", num1, num2, sum);
-          }
-      }
-      
-`;
+      const code = `
+      print("Hello, World!") 
+      `;
       Clipboard.setString(code);
       alert('Code copied to clipboard!');
     }
@@ -87,8 +63,7 @@ import {
                   <Text
                     style={styles.Regular}
                     className="text-base text-[#272727]">
-                    {code}
-                    
+                     {code} 
                   </Text>
                 </View>
               </View>
@@ -128,5 +103,5 @@ import {
       flex: 1,
     },
   });
-  export default Calculatecsharp;
+  export default Hellopython;
   
