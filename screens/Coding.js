@@ -112,7 +112,7 @@ const Coding = ({navigation}) => {
           <TouchableHighlight
             className="    bg-[#f2f2f2] shadow-lg w-[50%]   rounded-md"
             underlayColor="#E5E7EB"
-            onPress={() => navigation.navigate('csharp')}>
+            onPress={() => navigation.navigate('python')}>
             <View className="flex justify-center items-center">
               <Image
                 className="rounded-t-lg"
@@ -132,7 +132,7 @@ const Coding = ({navigation}) => {
           <TouchableHighlight
             className="    bg-[#f2f2f2] shadow-lg w-[50%]   rounded-md"
             underlayColor="#E5E7EB"
-            onPress={() => navigation.navigate('java')}>
+            onPress={() => navigation.navigate('c')}>
             <View className="flex justify-center items-center">
               <Image
                 className="rounded-t-lg"
@@ -155,7 +155,7 @@ const Coding = ({navigation}) => {
           <TouchableHighlight
             className="    bg-[#f2f2f2] shadow-lg w-[50%]   rounded-md"
             underlayColor="#E5E7EB"
-            onPress={() => navigation.navigate('csharp')}>
+            onPress={() => navigation.navigate('typescript')}>
             <View className="flex justify-center items-center">
               <Image
                 className="rounded-t-lg"
@@ -175,7 +175,7 @@ const Coding = ({navigation}) => {
           <TouchableHighlight
             className="    bg-[#f2f2f2] shadow-lg w-[50%]   rounded-md"
             underlayColor="#E5E7EB"
-            onPress={() => navigation.navigate('java')}>
+            onPress={() => navigation.navigate('php')}>
             <View className="flex justify-center items-center">
               <Image
                 className="rounded-t-lg"

@@ -159,13 +159,7 @@ const Javascript = ({navigation}) => {
             </Text>
           </TouchableHighlight>
         </View>  
-        {/* <TouchableHighlight
-          className=" rounded-lg shadow-md bg-[#50D890] py-4 flex justify-center items-center"
-          onPress={() => navigation.navigate('First Year Module')}>
-          <Text style={styles.SemiBold} className="text-[#EFFFFB] text-base">
-            Three ways to create function
-          </Text>
-        </TouchableHighlight> */}
+        
       </View>
     </ScrollView>
   );

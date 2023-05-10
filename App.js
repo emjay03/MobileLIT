@@ -54,6 +54,25 @@ import Declartion from './Javascript/Declaration';
 import Basicarrayjs from './Javascript/Basicarrayjs';
 import Promptjs from './Javascript/Promptjs';
 import Calculatecsharp from './Csharp/Calculatecsharp';
+import Python from './Coding/Python';
+import C from './Coding/C';
+import Typescript from './Coding/Typescript';
+import Php from './Coding/Php';
+import Checkprimeornotcsharp from './Csharp/Checkprimeornotcsharp';
+import Generatefibocsharp from './Csharp/Generatefibocsharp';
+import Areaofrectanglejava from './java/Areaofrectanglejava';
+import Capitalizejava from './java/Capitalizejava';
+import Guessjava from './java/Guessjava';
+import Findlargestnum from './java/Findlargestnum';
+import Capitalizefirstletterjava from './java/Capitalizefirstletterjava';
+import Countnumjava from './java/Countnumjava';
+import Hellojava from './java/Hellojava';
+import Calculatesumcsharp from './Csharp/Calculatesumcsharp';
+import Acceptstringcsharp from './Csharp/Acceptstringcsharp';
+import Converttempcsharp from './Csharp/Converttempcsharp';
+import Hellopython from './Python/Hellopython';
+import Rangeintpython from './Python/Rangeintpython';
+import Caesarpython from './Python/Caesarpython';
 
 
 const Stack = createStackNavigator();
@@ -190,6 +209,138 @@ function Code({ navigation }) {
  component={Java}
  options={{
    headerTitle: 'Java',
+   headerTitleAlign: 'center',
+   headerTitleStyle: {
+     fontSize: 20,
+     color: '#EFFFFB',
+     fontFamily:'Poppins-SemiBold',
+
+     
+   },
+   headerStyle: {
+    backgroundColor: '#0C4294',
+    elevation: 0, // remove shadow on Android
+    shadowOpacity: 0, // remove shadow on iOS
+    borderBottomRightRadius:15,
+    borderBottomLeftRadius:15,
+
+  },
+  headerLeft: () => (
+    <Ionicons
+      name="arrow-back"
+      size={24}
+      color="#EFFFFB"
+      onPress={() => navigation.goBack()}
+      style={{ marginLeft: 16 }}
+    />
+  ),
+}} 
+/>
+{/* Python */}
+<Stack.Screen
+ name="python"
+ component={Python}
+ options={{
+   headerTitle: 'Python',
+   headerTitleAlign: 'center',
+   headerTitleStyle: {
+     fontSize: 20,
+     color: '#EFFFFB',
+     fontFamily:'Poppins-SemiBold',
+
+     
+   },
+   headerStyle: {
+    backgroundColor: '#0C4294',
+    elevation: 0, // remove shadow on Android
+    shadowOpacity: 0, // remove shadow on iOS
+    borderBottomRightRadius:15,
+    borderBottomLeftRadius:15,
+
+  },
+  headerLeft: () => (
+    <Ionicons
+      name="arrow-back"
+      size={24}
+      color="#EFFFFB"
+      onPress={() => navigation.goBack()}
+      style={{ marginLeft: 16 }}
+    />
+  ),
+}} 
+/>
+{/* C */}
+<Stack.Screen
+ name="c"
+ component={C}
+ options={{
+   headerTitle: 'C',
+   headerTitleAlign: 'center',
+   headerTitleStyle: {
+     fontSize: 20,
+     color: '#EFFFFB',
+     fontFamily:'Poppins-SemiBold',
+
+     
+   },
+   headerStyle: {
+    backgroundColor: '#0C4294',
+    elevation: 0, // remove shadow on Android
+    shadowOpacity: 0, // remove shadow on iOS
+    borderBottomRightRadius:15,
+    borderBottomLeftRadius:15,
+
+  },
+  headerLeft: () => (
+    <Ionicons
+      name="arrow-back"
+      size={24}
+      color="#EFFFFB"
+      onPress={() => navigation.goBack()}
+      style={{ marginLeft: 16 }}
+    />
+  ),
+}} 
+/>
+{/* Typescript */}
+<Stack.Screen
+ name="typescript"
+ component={Typescript}
+ options={{
+   headerTitle: 'Typescript',
+   headerTitleAlign: 'center',
+   headerTitleStyle: {
+     fontSize: 20,
+     color: '#EFFFFB',
+     fontFamily:'Poppins-SemiBold',
+
+     
+   },
+   headerStyle: {
+    backgroundColor: '#0C4294',
+    elevation: 0, // remove shadow on Android
+    shadowOpacity: 0, // remove shadow on iOS
+    borderBottomRightRadius:15,
+    borderBottomLeftRadius:15,
+
+  },
+  headerLeft: () => (
+    <Ionicons
+      name="arrow-back"
+      size={24}
+      color="#EFFFFB"
+      onPress={() => navigation.goBack()}
+      style={{ marginLeft: 16 }}
+    />
+  ),
+}} 
+/>
+{/* php */}
+<Stack.Screen
+ name="php"
+ component={Php}
+ options={{
+   headerTitle: 'Php',
    headerTitleAlign: 'center',
    headerTitleStyle: {
      fontSize: 20,
@@ -614,12 +765,12 @@ function Code({ navigation }) {
   ),
 }} 
 />
-{/* C# development component */}
+ {/*C# development component */}
 <Stack.Screen
  name="calculatecsharp"
  component={Calculatecsharp}
  options={{
-   headerTitle: 'Calculate two numbers',
+   headerTitle: 'Problem 2',
    headerTitleAlign: 'center',
    headerTitleStyle: {
      fontSize: 20,
@@ -642,6 +793,490 @@ function Code({ navigation }) {
       size={24}
       color="#EFFFFB"
       onPress={() => navigation.navigate('csharp')}
+      style={{ marginLeft: 16 }}
+    />
+  ),
+}} 
+/>
+<Stack.Screen
+ name="checkprimeornotcsharp"
+ component={Checkprimeornotcsharp}
+ options={{
+   headerTitle: 'Problem 3',
+   headerTitleAlign: 'center',
+   headerTitleStyle: {
+     fontSize: 20,
+     color: '#EFFFFB',
+     fontFamily:'Poppins-SemiBold',
+
+     
+   },
+   headerStyle: {
+    backgroundColor: '#0C4294',
+    elevation: 0, // remove shadow on Android
+    shadowOpacity: 0, // remove shadow on iOS
+    borderBottomRightRadius:15,
+    borderBottomLeftRadius:15,
+
+  },
+  headerLeft: () => (
+    <Ionicons
+      name="arrow-back"
+      size={24}
+      color="#EFFFFB"
+      onPress={() => navigation.navigate('csharp')}
+      style={{ marginLeft: 16 }}
+    />
+  ),
+}} 
+/>
+<Stack.Screen
+ name="generatefibocsharp"
+ component={Generatefibocsharp}
+ options={{
+   headerTitle: 'Problem 4',
+   headerTitleAlign: 'center',
+   headerTitleStyle: {
+     fontSize: 20,
+     color: '#EFFFFB',
+     fontFamily:'Poppins-SemiBold',
+
+     
+   },
+   headerStyle: {
+    backgroundColor: '#0C4294',
+    elevation: 0, // remove shadow on Android
+    shadowOpacity: 0, // remove shadow on iOS
+    borderBottomRightRadius:15,
+    borderBottomLeftRadius:15,
+
+  },
+  headerLeft: () => (
+    <Ionicons
+      name="arrow-back"
+      size={24}
+      color="#EFFFFB"
+      onPress={() => navigation.navigate('csharp')}
+      style={{ marginLeft: 16 }}
+    />
+  ),
+}} 
+/>
+<Stack.Screen
+ name="calculatesumcsharp"
+ component={Calculatesumcsharp}
+ options={{
+   headerTitle: 'Problem 5',
+   headerTitleAlign: 'center',
+   headerTitleStyle: {
+     fontSize: 20,
+     color: '#EFFFFB',
+     fontFamily:'Poppins-SemiBold',
+
+     
+   },
+   headerStyle: {
+    backgroundColor: '#0C4294',
+    elevation: 0, // remove shadow on Android
+    shadowOpacity: 0, // remove shadow on iOS
+    borderBottomRightRadius:15,
+    borderBottomLeftRadius:15,
+
+  },
+  headerLeft: () => (
+    <Ionicons
+      name="arrow-back"
+      size={24}
+      color="#EFFFFB"
+      onPress={() => navigation.navigate('csharp')}
+      style={{ marginLeft: 16 }}
+    />
+  ),
+}} 
+/>
+<Stack.Screen
+ name="acceptstringcsharp"
+ component={Acceptstringcsharp}
+ options={{
+   headerTitle: 'Problem 6',
+   headerTitleAlign: 'center',
+   headerTitleStyle: {
+     fontSize: 20,
+     color: '#EFFFFB',
+     fontFamily:'Poppins-SemiBold',
+
+     
+   },
+   headerStyle: {
+    backgroundColor: '#0C4294',
+    elevation: 0, // remove shadow on Android
+    shadowOpacity: 0, // remove shadow on iOS
+    borderBottomRightRadius:15,
+    borderBottomLeftRadius:15,
+
+  },
+  headerLeft: () => (
+    <Ionicons
+      name="arrow-back"
+      size={24}
+      color="#EFFFFB"
+      onPress={() => navigation.navigate('csharp')}
+      style={{ marginLeft: 16 }}
+    />
+  ),
+}} 
+/>
+<Stack.Screen
+ name="converttempcsharp"
+ component={Converttempcsharp}
+ options={{
+   headerTitle: 'Problem 7',
+   headerTitleAlign: 'center',
+   headerTitleStyle: {
+     fontSize: 20,
+     color: '#EFFFFB',
+     fontFamily:'Poppins-SemiBold',
+
+     
+   },
+   headerStyle: {
+    backgroundColor: '#0C4294',
+    elevation: 0, // remove shadow on Android
+    shadowOpacity: 0, // remove shadow on iOS
+    borderBottomRightRadius:15,
+    borderBottomLeftRadius:15,
+
+  },
+  headerLeft: () => (
+    <Ionicons
+      name="arrow-back"
+      size={24}
+      color="#EFFFFB"
+      onPress={() => navigation.navigate('csharp')}
+      style={{ marginLeft: 16 }}
+    />
+  ),
+}} 
+/>
+{/*Java development component */}
+<Stack.Screen
+ name="hellojava"
+ component={Hellojava}
+ options={{
+   headerTitle: 'Problem 1',
+   headerTitleAlign: 'center',
+   headerTitleStyle: {
+     fontSize: 20,
+     color: '#EFFFFB',
+     fontFamily:'Poppins-SemiBold',
+
+     
+   },
+   headerStyle: {
+    backgroundColor: '#0C4294',
+    elevation: 0, // remove shadow on Android
+    shadowOpacity: 0, // remove shadow on iOS
+    borderBottomRightRadius:15,
+    borderBottomLeftRadius:15,
+
+  },
+  headerLeft: () => (
+    <Ionicons
+      name="arrow-back"
+      size={24}
+      color="#EFFFFB"
+      onPress={() => navigation.navigate('java')}
+      style={{ marginLeft: 16 }}
+    />
+  ),
+}} 
+/>
+<Stack.Screen
+ name="areaofrectanglejava"
+ component={Areaofrectanglejava}
+ options={{
+   headerTitle: 'Problem 2',
+   headerTitleAlign: 'center',
+   headerTitleStyle: {
+     fontSize: 20,
+     color: '#EFFFFB',
+     fontFamily:'Poppins-SemiBold',
+
+     
+   },
+   headerStyle: {
+    backgroundColor: '#0C4294',
+    elevation: 0, // remove shadow on Android
+    shadowOpacity: 0, // remove shadow on iOS
+    borderBottomRightRadius:15,
+    borderBottomLeftRadius:15,
+
+  },
+  headerLeft: () => (
+    <Ionicons
+      name="arrow-back"
+      size={24}
+      color="#EFFFFB"
+      onPress={() => navigation.navigate('java')}
+      style={{ marginLeft: 16 }}
+    />
+  ),
+}} 
+/>
+<Stack.Screen
+ name="capitalizejava"
+ component={Capitalizejava}
+ options={{
+   headerTitle: 'Problem 3',
+   headerTitleAlign: 'center',
+   headerTitleStyle: {
+     fontSize: 20,
+     color: '#EFFFFB',
+     fontFamily:'Poppins-SemiBold',
+
+     
+   },
+   headerStyle: {
+    backgroundColor: '#0C4294',
+    elevation: 0, // remove shadow on Android
+    shadowOpacity: 0, // remove shadow on iOS
+    borderBottomRightRadius:15,
+    borderBottomLeftRadius:15,
+
+  },
+  headerLeft: () => (
+    <Ionicons
+      name="arrow-back"
+      size={24}
+      color="#EFFFFB"
+      onPress={() => navigation.navigate('java')}
+      style={{ marginLeft: 16 }}
+    />
+  ),
+}} 
+/>
+<Stack.Screen
+ name="guessjava"
+ component={Guessjava}
+ options={{
+   headerTitle: 'Problem 4',
+   headerTitleAlign: 'center',
+   headerTitleStyle: {
+     fontSize: 20,
+     color: '#EFFFFB',
+     fontFamily:'Poppins-SemiBold',
+
+     
+   },
+   headerStyle: {
+    backgroundColor: '#0C4294',
+    elevation: 0, // remove shadow on Android
+    shadowOpacity: 0, // remove shadow on iOS
+    borderBottomRightRadius:15,
+    borderBottomLeftRadius:15,
+
+  },
+  headerLeft: () => (
+    <Ionicons
+      name="arrow-back"
+      size={24}
+      color="#EFFFFB"
+      onPress={() => navigation.navigate('java')}
+      style={{ marginLeft: 16 }}
+    />
+  ),
+}} 
+/>
+<Stack.Screen
+ name="findlargestnumjava"
+ component={Findlargestnum}
+ options={{
+   headerTitle: 'Problem 5',
+   headerTitleAlign: 'center',
+   headerTitleStyle: {
+     fontSize: 20,
+     color: '#EFFFFB',
+     fontFamily:'Poppins-SemiBold',
+
+     
+   },
+   headerStyle: {
+    backgroundColor: '#0C4294',
+    elevation: 0, // remove shadow on Android
+    shadowOpacity: 0, // remove shadow on iOS
+    borderBottomRightRadius:15,
+    borderBottomLeftRadius:15,
+
+  },
+  headerLeft: () => (
+    <Ionicons
+      name="arrow-back"
+      size={24}
+      color="#EFFFFB"
+      onPress={() => navigation.navigate('java')}
+      style={{ marginLeft: 16 }}
+    />
+  ),
+}} 
+/>
+<Stack.Screen
+ name="capitalizefirstletterjava"
+ component={Capitalizefirstletterjava}
+ options={{
+   headerTitle: 'Problem 6',
+   headerTitleAlign: 'center',
+   headerTitleStyle: {
+     fontSize: 20,
+     color: '#EFFFFB',
+     fontFamily:'Poppins-SemiBold',
+
+     
+   },
+   headerStyle: {
+    backgroundColor: '#0C4294',
+    elevation: 0, // remove shadow on Android
+    shadowOpacity: 0, // remove shadow on iOS
+    borderBottomRightRadius:15,
+    borderBottomLeftRadius:15,
+
+  },
+  headerLeft: () => (
+    <Ionicons
+      name="arrow-back"
+      size={24}
+      color="#EFFFFB"
+      onPress={() => navigation.navigate('java')}
+      style={{ marginLeft: 16 }}
+    />
+  ),
+}} 
+/>
+<Stack.Screen
+ name="countnumjava"
+ component={Countnumjava}
+ options={{
+   headerTitle: 'Problem 7',
+   headerTitleAlign: 'center',
+   headerTitleStyle: {
+     fontSize: 20,
+     color: '#EFFFFB',
+     fontFamily:'Poppins-SemiBold',
+
+     
+   },
+   headerStyle: {
+    backgroundColor: '#0C4294',
+    elevation: 0, // remove shadow on Android
+    shadowOpacity: 0, // remove shadow on iOS
+    borderBottomRightRadius:15,
+    borderBottomLeftRadius:15,
+
+  },
+  headerLeft: () => (
+    <Ionicons
+      name="arrow-back"
+      size={24}
+      color="#EFFFFB"
+      onPress={() => navigation.navigate('java')}
+      style={{ marginLeft: 16 }}
+    />
+  ),
+}} 
+/>
+
+
+{/*Python development component */}
+<Stack.Screen
+ name="hellopython"
+ component={Hellopython}
+ options={{
+   headerTitle: 'Problem 1',
+   headerTitleAlign: 'center',
+   headerTitleStyle: {
+     fontSize: 20,
+     color: '#EFFFFB',
+     fontFamily:'Poppins-SemiBold',
+
+     
+   },
+   headerStyle: {
+    backgroundColor: '#0C4294',
+    elevation: 0, // remove shadow on Android
+    shadowOpacity: 0, // remove shadow on iOS
+    borderBottomRightRadius:15,
+    borderBottomLeftRadius:15,
+
+  },
+  headerLeft: () => (
+    <Ionicons
+      name="arrow-back"
+      size={24}
+      color="#EFFFFB"
+      onPress={() => navigation.navigate('python')}
+      style={{ marginLeft: 16 }}
+    />
+  ),
+}} 
+/>
+<Stack.Screen
+ name="rangeintpython"
+ component={Rangeintpython}
+ options={{
+   headerTitle: 'Problem 2',
+   headerTitleAlign: 'center',
+   headerTitleStyle: {
+     fontSize: 20,
+     color: '#EFFFFB',
+     fontFamily:'Poppins-SemiBold',
+
+     
+   },
+   headerStyle: {
+    backgroundColor: '#0C4294',
+    elevation: 0, // remove shadow on Android
+    shadowOpacity: 0, // remove shadow on iOS
+    borderBottomRightRadius:15,
+    borderBottomLeftRadius:15,
+
+  },
+  headerLeft: () => (
+    <Ionicons
+      name="arrow-back"
+      size={24}
+      color="#EFFFFB"
+      onPress={() => navigation.navigate('python')}
+      style={{ marginLeft: 16 }}
+    />
+  ),
+}} 
+/>
+<Stack.Screen
+ name="caeasarpython"
+ component={Caesarpython}
+ options={{
+   headerTitle: 'Problem 3',
+   headerTitleAlign: 'center',
+   headerTitleStyle: {
+     fontSize: 20,
+     color: '#EFFFFB',
+     fontFamily:'Poppins-SemiBold',
+
+     
+   },
+   headerStyle: {
+    backgroundColor: '#0C4294',
+    elevation: 0, // remove shadow on Android
+    shadowOpacity: 0, // remove shadow on iOS
+    borderBottomRightRadius:15,
+    borderBottomLeftRadius:15,
+
+  },
+  headerLeft: () => (
+    <Ionicons
+      name="arrow-back"
+      size={24}
+      color="#EFFFFB"
+      onPress={() => navigation.navigate('python')}
       style={{ marginLeft: 16 }}
     />
   ),
