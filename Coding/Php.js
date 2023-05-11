@@ -30,7 +30,7 @@ import {
             </View>
             <TouchableHighlight
               className=" w-[80%]   flex justify-center items-center"
-              onPress={() => navigation.navigate('helloworldjs')}
+              onPress={() => navigation.navigate('hellophp')}
               underlayColor={{color: '#e2e2e2', borderRadius: 10}}>
               <Text
                 style={styles.Regular}
@@ -50,12 +50,12 @@ import {
             </View>
             <TouchableHighlight
               className=" w-[80%]   flex justify-center items-center"
-              onPress={() => navigation.navigate('calculatecsharp')} 
+              onPress={() => navigation.navigate('findlargestphp')} 
               underlayColor={{color: '#e2e2e2', borderRadius: 10}}>
               <Text
                 style={styles.Regular}
                 className=" text-center text-[#272727] text-[16px]  py-1 px-2">
-              calculates the area of a rectangle with the length and width input by the user.
+              Find the largest number in an array
               </Text>
             </TouchableHighlight>
           </View>
@@ -70,12 +70,12 @@ import {
             </View>
             <TouchableHighlight
               className=" w-[80%]   flex justify-center items-center"
-              onPress={() => navigation.navigate('basicarrayjs')}
+              onPress={() => navigation.navigate('sortarrayphp')}
               underlayColor={{color: '#e2e2e2', borderRadius: 10}}>
               <Text
                 style={styles.Regular}
                 className=" text-center text-[#272727] text-[16px]  py-1 px-2">
-               Accepts a string from the user and capitalizes the first letter of each word in the string..
+               Sort an array of integers in ascending order
               </Text>
             </TouchableHighlight>
           </View>
@@ -90,12 +90,12 @@ import {
             </View>
             <TouchableHighlight
               className=" w-[80%]   flex justify-center items-center"
-              onPress={() => navigation.navigate('promptjs')}
+              onPress={() => navigation.navigate('removephp')}
               underlayColor={{color: '#e2e2e2', borderRadius: 10}}>
               <Text
                 style={styles.Regular}
                 className=" text-center text-[#272727] text-[16px]  py-1 px-2">
-               Guess a random number between 1 and 100.
+              Remove duplicates from an array
               </Text>
             </TouchableHighlight>
           </View>
@@ -110,12 +110,12 @@ import {
             </View>
             <TouchableHighlight
               className=" w-[80%]   flex justify-center items-center"
-              onPress={() => navigation.navigate('First Year Module')}
+              onPress={() => navigation.navigate('averagearrayphp')}
               underlayColor={{color: '#e2e2e2', borderRadius: 10}}>
               <Text
                 style={styles.Regular}
                 className=" text-center text-[#272727] text-[16px] py-1 px-2">
-            Find the second largest number in an array of integers.
+          Find the average of an array of numbers
               </Text>
             </TouchableHighlight>
           </View>
@@ -130,12 +130,12 @@ import {
             </View>
             <TouchableHighlight
               className=" w-[80%]   flex justify-center items-center"
-              onPress={() => navigation.navigate('First Year Module')}
+              onPress={() => navigation.navigate('mergephp')}
               underlayColor={{color: '#e2e2e2', borderRadius: 10}}>
               <Text
                 style={styles.Regular}
                 className=" text-center text-[#272727] text-[16px]  py-1 px-2">
-              Capitalize the first letter of each word in a string.
+             Merge two arrays into one
               </Text>
             </TouchableHighlight>
           </View>
@@ -150,12 +150,12 @@ import {
             </View>
             <TouchableHighlight
               className=" w-[80%]   flex justify-center items-center"
-              onPress={() => navigation.navigate('First Year Module')}
+              onPress={() => navigation.navigate('reversephp')}
               underlayColor={{color: '#e2e2e2', borderRadius: 10}}>
               <Text
                 style={styles.Regular}
                 className=" text-center text-[#272727] text-[16px]  py-1 px-2">
-            Count the number of vowels in a string.
+            Reverse a given string
               </Text>
             </TouchableHighlight>
           </View>  

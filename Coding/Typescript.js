@@ -30,7 +30,7 @@ import {
             </View>
             <TouchableHighlight
               className=" w-[80%]   flex justify-center items-center"
-              onPress={() => navigation.navigate('helloworldjs')}
+              onPress={() => navigation.navigate('hellots')}
               underlayColor={{color: '#e2e2e2', borderRadius: 10}}>
               <Text
                 style={styles.Regular}
@@ -50,12 +50,12 @@ import {
             </View>
             <TouchableHighlight
               className=" w-[80%]   flex justify-center items-center"
-              onPress={() => navigation.navigate('calculatecsharp')} 
+              onPress={() => navigation.navigate('parameterts')} 
               underlayColor={{color: '#e2e2e2', borderRadius: 10}}>
               <Text
                 style={styles.Regular}
                 className=" text-center text-[#272727] text-[16px]  py-1 px-2">
-              Function that accepts an array of strings as a parameter and returns the longest string in the a
+             Function that accepts an array of strings and returns the longest string in the array
               </Text>
             </TouchableHighlight>
           </View>
@@ -70,7 +70,7 @@ import {
             </View>
             <TouchableHighlight
               className=" w-[80%]   flex justify-center items-center"
-              onPress={() => navigation.navigate('basicarrayjs')}
+              onPress={() => navigation.navigate('factorialts')}
               underlayColor={{color: '#e2e2e2', borderRadius: 10}}>
               <Text
                 style={styles.Regular}
@@ -90,7 +90,7 @@ import {
             </View>
             <TouchableHighlight
               className=" w-[80%]   flex justify-center items-center"
-              onPress={() => navigation.navigate('promptjs')}
+              onPress={() => navigation.navigate('perfectsquarets')}
               underlayColor={{color: '#e2e2e2', borderRadius: 10}}>
               <Text
                 style={styles.Regular}
@@ -110,7 +110,7 @@ import {
             </View>
             <TouchableHighlight
               className=" w-[80%]   flex justify-center items-center"
-              onPress={() => navigation.navigate('First Year Module')}
+              onPress={() => navigation.navigate('secondlargestts')}
               underlayColor={{color: '#e2e2e2', borderRadius: 10}}>
               <Text
                 style={styles.Regular}
@@ -130,7 +130,7 @@ import {
             </View>
             <TouchableHighlight
               className=" w-[80%]   flex justify-center items-center"
-              onPress={() => navigation.navigate('First Year Module')}
+              onPress={() => navigation.navigate('capitalizets')}
               underlayColor={{color: '#e2e2e2', borderRadius: 10}}>
               <Text
                 style={styles.Regular}
@@ -150,7 +150,7 @@ import {
             </View>
             <TouchableHighlight
               className=" w-[80%]   flex justify-center items-center"
-              onPress={() => navigation.navigate('First Year Module')}
+              onPress={() => navigation.navigate('vowelsts')}
               underlayColor={{color: '#e2e2e2', borderRadius: 10}}>
               <Text
                 style={styles.Regular}

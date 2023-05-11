@@ -90,7 +90,7 @@ import {
             </View>
             <TouchableHighlight
               className=" w-[80%]   flex justify-center items-center"
-              onPress={() => navigation.navigate('promptjs')}
+              onPress={() => navigation.navigate('caesarreduxpython')}
               underlayColor={{color: '#e2e2e2', borderRadius: 10}}>
               <Text
                 style={styles.Regular}
@@ -110,7 +110,7 @@ import {
             </View>
             <TouchableHighlight
               className=" w-[80%]   flex justify-center items-center"
-              onPress={() => navigation.navigate('First Year Module')}
+              onPress={() => navigation.navigate('findareapython')}
               underlayColor={{color: '#e2e2e2', borderRadius: 10}}>
               <Text
                 style={styles.Regular}
@@ -130,7 +130,7 @@ import {
             </View>
             <TouchableHighlight
               className=" w-[80%]   flex justify-center items-center"
-              onPress={() => navigation.navigate('First Year Module')}
+              onPress={() => navigation.navigate('findaveragepython')}
               underlayColor={{color: '#e2e2e2', borderRadius: 10}}>
               <Text
                 style={styles.Regular}
@@ -150,7 +150,7 @@ import {
             </View>
             <TouchableHighlight
               className=" w-[80%]   flex justify-center items-center"
-              onPress={() => navigation.navigate('First Year Module')}
+              onPress={() => navigation.navigate('unzippython')}
               underlayColor={{color: '#e2e2e2', borderRadius: 10}}>
               <Text
                 style={styles.Regular}
