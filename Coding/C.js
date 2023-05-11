@@ -30,7 +30,7 @@ import {
             </View>
             <TouchableHighlight
               className=" w-[80%]   flex justify-center items-center"
-              onPress={() => navigation.navigate('helloworldjs')}
+              onPress={() => navigation.navigate('helloc')}
               underlayColor={{color: '#e2e2e2', borderRadius: 10}}>
               <Text
                 style={styles.Regular}
@@ -50,7 +50,7 @@ import {
             </View>
             <TouchableHighlight
               className=" w-[80%]   flex justify-center items-center"
-              onPress={() => navigation.navigate('calculatecsharp')} 
+              onPress={() => navigation.navigate('addnumberc')} 
               underlayColor={{color: '#e2e2e2', borderRadius: 10}}>
               <Text
                 style={styles.Regular}
@@ -70,7 +70,7 @@ import {
             </View>
             <TouchableHighlight
               className=" w-[80%]   flex justify-center items-center"
-              onPress={() => navigation.navigate('basicarrayjs')}
+              onPress={() => navigation.navigate('minimumprodc')}
               underlayColor={{color: '#e2e2e2', borderRadius: 10}}>
               <Text
                 style={styles.Regular}
@@ -90,7 +90,7 @@ import {
             </View>
             <TouchableHighlight
               className=" w-[80%]   flex justify-center items-center"
-              onPress={() => navigation.navigate('promptjs')}
+              onPress={() => navigation.navigate('programdivisionc')}
               underlayColor={{color: '#e2e2e2', borderRadius: 10}}>
               <Text
                 style={styles.Regular}
@@ -110,7 +110,7 @@ import {
             </View>
             <TouchableHighlight
               className=" w-[80%]   flex justify-center items-center"
-              onPress={() => navigation.navigate('First Year Module')}
+              onPress={() => navigation.navigate('findsimplec')}
               underlayColor={{color: '#e2e2e2', borderRadius: 10}}>
               <Text
                 style={styles.Regular}
@@ -130,7 +130,7 @@ import {
             </View>
             <TouchableHighlight
               className=" w-[80%]   flex justify-center items-center"
-              onPress={() => navigation.navigate('First Year Module')}
+              onPress={() => navigation.navigate('generatec')}
               underlayColor={{color: '#e2e2e2', borderRadius: 10}}>
               <Text
                 style={styles.Regular}
@@ -150,7 +150,7 @@ import {
             </View>
             <TouchableHighlight
               className=" w-[80%]   flex justify-center items-center"
-              onPress={() => navigation.navigate('First Year Module')}
+              onPress={() => navigation.navigate('patternc')}
               underlayColor={{color: '#e2e2e2', borderRadius: 10}}>
               <Text
                 style={styles.Regular}

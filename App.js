@@ -73,6 +73,31 @@ import Converttempcsharp from './Csharp/Converttempcsharp';
 import Hellopython from './Python/Hellopython';
 import Rangeintpython from './Python/Rangeintpython';
 import Caesarpython from './Python/Caesarpython';
+import Caesarreduxpython from './Python/Caesarreduxpython';
+import Findareapython from './Python/Findareapython';
+import Findaveragepython from './Python/Findaveragepython';
+import Unzipython from './Python/Unzippython';
+import Helloc from './C/Helloc';
+import Addnumberc from './C/Addnumberc';
+import Minimumprodc from './C/Minimumprodc';
+import Programdivisionc from './C/Programdivisionc';
+import Findsimplec from './C/Findsimplec';
+import Generatec from './C/Generatec';
+import Patternc from './C/Patternc';
+import Hellots from './Typescript/Hellots';
+import Parameterts from './Typescript/Parameterts';
+import Factorialts from './Typescript/Factorialts';
+import Perfectsquarets from './Typescript/Perfectsquarets';
+import Secondlargestts from './Typescript/Secondlargestts';
+import Capitalizets from './Typescript/Capitalizets';
+import Vowelsts from './Typescript/Vowelsts';
+import Hellophp from './Php/Hellophp';
+import Findlargestphp from './Php/Findlargestphp';
+import Sortarrayphp from './Php/Sortarrayphp';
+import Removephp from './Php/Removephp';
+import Averagearrayphp from './Php/Averagearrayphp';
+import Mergephp from './Php/Mergephp';
+import Reversephp from './C/Reversephp';
 
 
 const Stack = createStackNavigator();
@@ -1277,6 +1302,809 @@ function Code({ navigation }) {
       size={24}
       color="#EFFFFB"
       onPress={() => navigation.navigate('python')}
+      style={{ marginLeft: 16 }}
+    />
+  ),
+}} 
+/>
+<Stack.Screen
+ name="caesarreduxpython"
+ component={Caesarreduxpython}
+ options={{
+   headerTitle: 'Problem 4',
+   headerTitleAlign: 'center',
+   headerTitleStyle: {
+     fontSize: 20,
+     color: '#EFFFFB',
+     fontFamily:'Poppins-SemiBold',
+
+     
+   },
+   headerStyle: {
+    backgroundColor: '#0C4294',
+    elevation: 0, // remove shadow on Android
+    shadowOpacity: 0, // remove shadow on iOS
+    borderBottomRightRadius:15,
+    borderBottomLeftRadius:15,
+
+  },
+  headerLeft: () => (
+    <Ionicons
+      name="arrow-back"
+      size={24}
+      color="#EFFFFB"
+      onPress={() => navigation.navigate('python')}
+      style={{ marginLeft: 16 }}
+    />
+  ),
+}} 
+/>
+<Stack.Screen
+ name="findareapython"
+ component={Findareapython}
+ options={{
+   headerTitle: 'Problem 5',
+   headerTitleAlign: 'center',
+   headerTitleStyle: {
+     fontSize: 20,
+     color: '#EFFFFB',
+     fontFamily:'Poppins-SemiBold',
+
+     
+   },
+   headerStyle: {
+    backgroundColor: '#0C4294',
+    elevation: 0, // remove shadow on Android
+    shadowOpacity: 0, // remove shadow on iOS
+    borderBottomRightRadius:15,
+    borderBottomLeftRadius:15,
+
+  },
+  headerLeft: () => (
+    <Ionicons
+      name="arrow-back"
+      size={24}
+      color="#EFFFFB"
+      onPress={() => navigation.navigate('python')}
+      style={{ marginLeft: 16 }}
+    />
+  ),
+}} 
+/>
+<Stack.Screen
+ name="findaveragepython"
+ component={Findaveragepython}
+ options={{
+   headerTitle: 'Problem 6',
+   headerTitleAlign: 'center',
+   headerTitleStyle: {
+     fontSize: 20,
+     color: '#EFFFFB',
+     fontFamily:'Poppins-SemiBold',
+
+     
+   },
+   headerStyle: {
+    backgroundColor: '#0C4294',
+    elevation: 0, // remove shadow on Android
+    shadowOpacity: 0, // remove shadow on iOS
+    borderBottomRightRadius:15,
+    borderBottomLeftRadius:15,
+
+  },
+  headerLeft: () => (
+    <Ionicons
+      name="arrow-back"
+      size={24}
+      color="#EFFFFB"
+      onPress={() => navigation.navigate('python')}
+      style={{ marginLeft: 16 }}
+    />
+  ),
+}} 
+/>
+<Stack.Screen
+ name="unzippython"
+ component={Unzipython}
+ options={{
+   headerTitle: 'Problem 7',
+   headerTitleAlign: 'center',
+   headerTitleStyle: {
+     fontSize: 20,
+     color: '#EFFFFB',
+     fontFamily:'Poppins-SemiBold',
+
+     
+   },
+   headerStyle: {
+    backgroundColor: '#0C4294',
+    elevation: 0, // remove shadow on Android
+    shadowOpacity: 0, // remove shadow on iOS
+    borderBottomRightRadius:15,
+    borderBottomLeftRadius:15,
+
+  },
+  headerLeft: () => (
+    <Ionicons
+      name="arrow-back"
+      size={24}
+      color="#EFFFFB"
+      onPress={() => navigation.navigate('python')}
+      style={{ marginLeft: 16 }}
+    />
+  ),
+}} 
+/>
+{/* C component */}
+<Stack.Screen
+ name="helloc"
+ component={Helloc}
+ options={{
+   headerTitle: 'Problem 1',
+   headerTitleAlign: 'center',
+   headerTitleStyle: {
+     fontSize: 20,
+     color: '#EFFFFB',
+     fontFamily:'Poppins-SemiBold',
+
+     
+   },
+   headerStyle: {
+    backgroundColor: '#0C4294',
+    elevation: 0, // remove shadow on Android
+    shadowOpacity: 0, // remove shadow on iOS
+    borderBottomRightRadius:15,
+    borderBottomLeftRadius:15,
+
+  },
+  headerLeft: () => (
+    <Ionicons
+      name="arrow-back"
+      size={24}
+      color="#EFFFFB"
+      onPress={() => navigation.navigate('c')}
+      style={{ marginLeft: 16 }}
+    />
+  ),
+}} 
+/>
+<Stack.Screen
+ name="addnumberc"
+ component={Addnumberc}
+ options={{
+   headerTitle: 'Problem 2',
+   headerTitleAlign: 'center',
+   headerTitleStyle: {
+     fontSize: 20,
+     color: '#EFFFFB',
+     fontFamily:'Poppins-SemiBold',
+
+     
+   },
+   headerStyle: {
+    backgroundColor: '#0C4294',
+    elevation: 0, // remove shadow on Android
+    shadowOpacity: 0, // remove shadow on iOS
+    borderBottomRightRadius:15,
+    borderBottomLeftRadius:15,
+
+  },
+  headerLeft: () => (
+    <Ionicons
+      name="arrow-back"
+      size={24}
+      color="#EFFFFB"
+      onPress={() => navigation.navigate('c')}
+      style={{ marginLeft: 16 }}
+    />
+  ),
+}} 
+/>
+<Stack.Screen
+ name="minimumprodc"
+ component={Minimumprodc}
+ options={{
+   headerTitle: 'Problem 3',
+   headerTitleAlign: 'center',
+   headerTitleStyle: {
+     fontSize: 20,
+     color: '#EFFFFB',
+     fontFamily:'Poppins-SemiBold',
+
+     
+   },
+   headerStyle: {
+    backgroundColor: '#0C4294',
+    elevation: 0, // remove shadow on Android
+    shadowOpacity: 0, // remove shadow on iOS
+    borderBottomRightRadius:15,
+    borderBottomLeftRadius:15,
+
+  },
+  headerLeft: () => (
+    <Ionicons
+      name="arrow-back"
+      size={24}
+      color="#EFFFFB"
+      onPress={() => navigation.navigate('c')}
+      style={{ marginLeft: 16 }}
+    />
+  ),
+}} 
+/>
+<Stack.Screen
+ name="programdivisionc"
+ component={Programdivisionc}
+ options={{
+   headerTitle: 'Problem 4',
+   headerTitleAlign: 'center',
+   headerTitleStyle: {
+     fontSize: 20,
+     color: '#EFFFFB',
+     fontFamily:'Poppins-SemiBold',
+
+     
+   },
+   headerStyle: {
+    backgroundColor: '#0C4294',
+    elevation: 0, // remove shadow on Android
+    shadowOpacity: 0, // remove shadow on iOS
+    borderBottomRightRadius:15,
+    borderBottomLeftRadius:15,
+
+  },
+  headerLeft: () => (
+    <Ionicons
+      name="arrow-back"
+      size={24}
+      color="#EFFFFB"
+      onPress={() => navigation.navigate('c')}
+      style={{ marginLeft: 16 }}
+    />
+  ),
+}} 
+/>
+<Stack.Screen
+ name="findsimplec"
+ component={Findsimplec}
+ options={{
+   headerTitle: 'Problem 5',
+   headerTitleAlign: 'center',
+   headerTitleStyle: {
+     fontSize: 20,
+     color: '#EFFFFB',
+     fontFamily:'Poppins-SemiBold',
+
+     
+   },
+   headerStyle: {
+    backgroundColor: '#0C4294',
+    elevation: 0, // remove shadow on Android
+    shadowOpacity: 0, // remove shadow on iOS
+    borderBottomRightRadius:15,
+    borderBottomLeftRadius:15,
+
+  },
+  headerLeft: () => (
+    <Ionicons
+      name="arrow-back"
+      size={24}
+      color="#EFFFFB"
+      onPress={() => navigation.navigate('c')}
+      style={{ marginLeft: 16 }}
+    />
+  ),
+}} 
+/>
+<Stack.Screen
+ name="generatec"
+ component={Generatec}
+ options={{
+   headerTitle: 'Problem 6',
+   headerTitleAlign: 'center',
+   headerTitleStyle: {
+     fontSize: 20,
+     color: '#EFFFFB',
+     fontFamily:'Poppins-SemiBold',
+
+     
+   },
+   headerStyle: {
+    backgroundColor: '#0C4294',
+    elevation: 0, // remove shadow on Android
+    shadowOpacity: 0, // remove shadow on iOS
+    borderBottomRightRadius:15,
+    borderBottomLeftRadius:15,
+
+  },
+  headerLeft: () => (
+    <Ionicons
+      name="arrow-back"
+      size={24}
+      color="#EFFFFB"
+      onPress={() => navigation.navigate('c')}
+      style={{ marginLeft: 16 }}
+    />
+  ),
+}} 
+/>
+<Stack.Screen
+ name="patternc"
+ component={Patternc}
+ options={{
+   headerTitle: 'Problem 7',
+   headerTitleAlign: 'center',
+   headerTitleStyle: {
+     fontSize: 20,
+     color: '#EFFFFB',
+     fontFamily:'Poppins-SemiBold',
+
+     
+   },
+   headerStyle: {
+    backgroundColor: '#0C4294',
+    elevation: 0, // remove shadow on Android
+    shadowOpacity: 0, // remove shadow on iOS
+    borderBottomRightRadius:15,
+    borderBottomLeftRadius:15,
+
+  },
+  headerLeft: () => (
+    <Ionicons
+      name="arrow-back"
+      size={24}
+      color="#EFFFFB"
+      onPress={() => navigation.navigate('c')}
+      style={{ marginLeft: 16 }}
+    />
+  ),
+}} 
+/>
+{/* Typescript components */}
+<Stack.Screen
+ name="hellots"
+ component={Hellots}
+ options={{
+   headerTitle: 'Problem 1',
+   headerTitleAlign: 'center',
+   headerTitleStyle: {
+     fontSize: 20,
+     color: '#EFFFFB',
+     fontFamily:'Poppins-SemiBold',
+
+     
+   },
+   headerStyle: {
+    backgroundColor: '#0C4294',
+    elevation: 0, // remove shadow on Android
+    shadowOpacity: 0, // remove shadow on iOS
+    borderBottomRightRadius:15,
+    borderBottomLeftRadius:15,
+
+  },
+  headerLeft: () => (
+    <Ionicons
+      name="arrow-back"
+      size={24}
+      color="#EFFFFB"
+      onPress={() => navigation.navigate('typescript')}
+      style={{ marginLeft: 16 }}
+    />
+  ),
+}} 
+/>
+<Stack.Screen
+ name="parameterts"
+ component={Parameterts}
+ options={{
+   headerTitle: 'Problem 2',
+   headerTitleAlign: 'center',
+   headerTitleStyle: {
+     fontSize: 20,
+     color: '#EFFFFB',
+     fontFamily:'Poppins-SemiBold',
+
+     
+   },
+   headerStyle: {
+    backgroundColor: '#0C4294',
+    elevation: 0, // remove shadow on Android
+    shadowOpacity: 0, // remove shadow on iOS
+    borderBottomRightRadius:15,
+    borderBottomLeftRadius:15,
+
+  },
+  headerLeft: () => (
+    <Ionicons
+      name="arrow-back"
+      size={24}
+      color="#EFFFFB"
+      onPress={() => navigation.navigate('typescript')}
+      style={{ marginLeft: 16 }}
+    />
+  ),
+}} 
+/>
+<Stack.Screen
+ name="factorialts"
+ component={Factorialts}
+ options={{
+   headerTitle: 'Problem 3',
+   headerTitleAlign: 'center',
+   headerTitleStyle: {
+     fontSize: 20,
+     color: '#EFFFFB',
+     fontFamily:'Poppins-SemiBold',
+
+     
+   },
+   headerStyle: {
+    backgroundColor: '#0C4294',
+    elevation: 0, // remove shadow on Android
+    shadowOpacity: 0, // remove shadow on iOS
+    borderBottomRightRadius:15,
+    borderBottomLeftRadius:15,
+
+  },
+  headerLeft: () => (
+    <Ionicons
+      name="arrow-back"
+      size={24}
+      color="#EFFFFB"
+      onPress={() => navigation.navigate('typescript')}
+      style={{ marginLeft: 16 }}
+    />
+  ),
+}} 
+/>
+<Stack.Screen
+ name="perfectsquarets"
+ component={Perfectsquarets}
+ options={{
+   headerTitle: 'Problem 4',
+   headerTitleAlign: 'center',
+   headerTitleStyle: {
+     fontSize: 20,
+     color: '#EFFFFB',
+     fontFamily:'Poppins-SemiBold',
+
+     
+   },
+   headerStyle: {
+    backgroundColor: '#0C4294',
+    elevation: 0, // remove shadow on Android
+    shadowOpacity: 0, // remove shadow on iOS
+    borderBottomRightRadius:15,
+    borderBottomLeftRadius:15,
+
+  },
+  headerLeft: () => (
+    <Ionicons
+      name="arrow-back"
+      size={24}
+      color="#EFFFFB"
+      onPress={() => navigation.navigate('typescript')}
+      style={{ marginLeft: 16 }}
+    />
+  ),
+}} 
+/>
+<Stack.Screen
+ name="secondlargestts"
+ component={Secondlargestts}
+ options={{
+   headerTitle: 'Problem 5',
+   headerTitleAlign: 'center',
+   headerTitleStyle: {
+     fontSize: 20,
+     color: '#EFFFFB',
+     fontFamily:'Poppins-SemiBold',
+
+     
+   },
+   headerStyle: {
+    backgroundColor: '#0C4294',
+    elevation: 0, // remove shadow on Android
+    shadowOpacity: 0, // remove shadow on iOS
+    borderBottomRightRadius:15,
+    borderBottomLeftRadius:15,
+
+  },
+  headerLeft: () => (
+    <Ionicons
+      name="arrow-back"
+      size={24}
+      color="#EFFFFB"
+      onPress={() => navigation.navigate('typescript')}
+      style={{ marginLeft: 16 }}
+    />
+  ),
+}} 
+/>
+<Stack.Screen
+ name="capitalizets"
+ component={Capitalizets}
+ options={{
+   headerTitle: 'Problem 6',
+   headerTitleAlign: 'center',
+   headerTitleStyle: {
+     fontSize: 20,
+     color: '#EFFFFB',
+     fontFamily:'Poppins-SemiBold',
+
+     
+   },
+   headerStyle: {
+    backgroundColor: '#0C4294',
+    elevation: 0, // remove shadow on Android
+    shadowOpacity: 0, // remove shadow on iOS
+    borderBottomRightRadius:15,
+    borderBottomLeftRadius:15,
+
+  },
+  headerLeft: () => (
+    <Ionicons
+      name="arrow-back"
+      size={24}
+      color="#EFFFFB"
+      onPress={() => navigation.navigate('typescript')}
+      style={{ marginLeft: 16 }}
+    />
+  ),
+}} 
+/>
+<Stack.Screen
+ name="vowelsts"
+ component={Vowelsts}
+ options={{
+   headerTitle: 'Problem 7',
+   headerTitleAlign: 'center',
+   headerTitleStyle: {
+     fontSize: 20,
+     color: '#EFFFFB',
+     fontFamily:'Poppins-SemiBold',
+
+     
+   },
+   headerStyle: {
+    backgroundColor: '#0C4294',
+    elevation: 0, // remove shadow on Android
+    shadowOpacity: 0, // remove shadow on iOS
+    borderBottomRightRadius:15,
+    borderBottomLeftRadius:15,
+
+  },
+  headerLeft: () => (
+    <Ionicons
+      name="arrow-back"
+      size={24}
+      color="#EFFFFB"
+      onPress={() => navigation.navigate('typescript')}
+      style={{ marginLeft: 16 }}
+    />
+  ),
+}} 
+/>
+{/* php components */}
+<Stack.Screen
+ name="hellophp"
+ component={Hellophp}
+ options={{
+   headerTitle: 'Problem 1',
+   headerTitleAlign: 'center',
+   headerTitleStyle: {
+     fontSize: 20,
+     color: '#EFFFFB',
+     fontFamily:'Poppins-SemiBold',
+
+     
+   },
+   headerStyle: {
+    backgroundColor: '#0C4294',
+    elevation: 0, // remove shadow on Android
+    shadowOpacity: 0, // remove shadow on iOS
+    borderBottomRightRadius:15,
+    borderBottomLeftRadius:15,
+
+  },
+  headerLeft: () => (
+    <Ionicons
+      name="arrow-back"
+      size={24}
+      color="#EFFFFB"
+      onPress={() => navigation.navigate('php')}
+      style={{ marginLeft: 16 }}
+    />
+  ),
+}} 
+/>
+<Stack.Screen
+ name="findlargestphp"
+ component={Findlargestphp}
+ options={{
+   headerTitle: 'Problem 2',
+   headerTitleAlign: 'center',
+   headerTitleStyle: {
+     fontSize: 20,
+     color: '#EFFFFB',
+     fontFamily:'Poppins-SemiBold',
+
+     
+   },
+   headerStyle: {
+    backgroundColor: '#0C4294',
+    elevation: 0, // remove shadow on Android
+    shadowOpacity: 0, // remove shadow on iOS
+    borderBottomRightRadius:15,
+    borderBottomLeftRadius:15,
+
+  },
+  headerLeft: () => (
+    <Ionicons
+      name="arrow-back"
+      size={24}
+      color="#EFFFFB"
+      onPress={() => navigation.navigate('php')}
+      style={{ marginLeft: 16 }}
+    />
+  ),
+}} 
+/>
+<Stack.Screen
+ name="sortarrayphp"
+ component={Sortarrayphp}
+ options={{
+   headerTitle: 'Problem 3',
+   headerTitleAlign: 'center',
+   headerTitleStyle: {
+     fontSize: 20,
+     color: '#EFFFFB',
+     fontFamily:'Poppins-SemiBold',
+
+     
+   },
+   headerStyle: {
+    backgroundColor: '#0C4294',
+    elevation: 0, // remove shadow on Android
+    shadowOpacity: 0, // remove shadow on iOS
+    borderBottomRightRadius:15,
+    borderBottomLeftRadius:15,
+
+  },
+  headerLeft: () => (
+    <Ionicons
+      name="arrow-back"
+      size={24}
+      color="#EFFFFB"
+      onPress={() => navigation.navigate('php')}
+      style={{ marginLeft: 16 }}
+    />
+  ),
+}} 
+/>
+<Stack.Screen
+ name="removephp"
+ component={Removephp}
+ options={{
+   headerTitle: 'Problem 4',
+   headerTitleAlign: 'center',
+   headerTitleStyle: {
+     fontSize: 20,
+     color: '#EFFFFB',
+     fontFamily:'Poppins-SemiBold',
+
+     
+   },
+   headerStyle: {
+    backgroundColor: '#0C4294',
+    elevation: 0, // remove shadow on Android
+    shadowOpacity: 0, // remove shadow on iOS
+    borderBottomRightRadius:15,
+    borderBottomLeftRadius:15,
+
+  },
+  headerLeft: () => (
+    <Ionicons
+      name="arrow-back"
+      size={24}
+      color="#EFFFFB"
+      onPress={() => navigation.navigate('php')}
+      style={{ marginLeft: 16 }}
+    />
+  ),
+}} 
+/>
+<Stack.Screen
+ name="averagearrayphp"
+ component={Averagearrayphp}
+ options={{
+   headerTitle: 'Problem 5',
+   headerTitleAlign: 'center',
+   headerTitleStyle: {
+     fontSize: 20,
+     color: '#EFFFFB',
+     fontFamily:'Poppins-SemiBold',
+
+     
+   },
+   headerStyle: {
+    backgroundColor: '#0C4294',
+    elevation: 0, // remove shadow on Android
+    shadowOpacity: 0, // remove shadow on iOS
+    borderBottomRightRadius:15,
+    borderBottomLeftRadius:15,
+
+  },
+  headerLeft: () => (
+    <Ionicons
+      name="arrow-back"
+      size={24}
+      color="#EFFFFB"
+      onPress={() => navigation.navigate('php')}
+      style={{ marginLeft: 16 }}
+    />
+  ),
+}} 
+/>
+<Stack.Screen
+ name="mergephp"
+ component={Mergephp}
+ options={{
+   headerTitle: 'Problem 6',
+   headerTitleAlign: 'center',
+   headerTitleStyle: {
+     fontSize: 20,
+     color: '#EFFFFB',
+     fontFamily:'Poppins-SemiBold',
+
+     
+   },
+   headerStyle: {
+    backgroundColor: '#0C4294',
+    elevation: 0, // remove shadow on Android
+    shadowOpacity: 0, // remove shadow on iOS
+    borderBottomRightRadius:15,
+    borderBottomLeftRadius:15,
+
+  },
+  headerLeft: () => (
+    <Ionicons
+      name="arrow-back"
+      size={24}
+      color="#EFFFFB"
+      onPress={() => navigation.navigate('php')}
+      style={{ marginLeft: 16 }}
+    />
+  ),
+}} 
+/>
+<Stack.Screen
+ name="reversephp"
+ component={Reversephp}
+ options={{
+   headerTitle: 'Problem 7',
+   headerTitleAlign: 'center',
+   headerTitleStyle: {
+     fontSize: 20,
+     color: '#EFFFFB',
+     fontFamily:'Poppins-SemiBold',
+
+     
+   },
+   headerStyle: {
+    backgroundColor: '#0C4294',
+    elevation: 0, // remove shadow on Android
+    shadowOpacity: 0, // remove shadow on iOS
+    borderBottomRightRadius:15,
+    borderBottomLeftRadius:15,
+
+  },
+  headerLeft: () => (
+    <Ionicons
+      name="arrow-back"
+      size={24}
+      color="#EFFFFB"
+      onPress={() => navigation.navigate('php')}
       style={{ marginLeft: 16 }}
     />
   ),
