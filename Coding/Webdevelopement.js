@@ -27,7 +27,7 @@ const Webdevelopement = ({navigation}) => {
             underlayColor={{color: '#e2e2e2', borderRadius: 10}}>
             <Text
               style={styles.Regular}
-              className=" text-center text-[#272727] text-[18px] py-1">
+              className=" text-center text-[#272727] text-[16px] py-1 px-2">
               Hello World
             </Text>
           </TouchableHighlight>
@@ -47,7 +47,7 @@ const Webdevelopement = ({navigation}) => {
             underlayColor={{color: '#e2e2e2', borderRadius: 10}}>
             <Text
               style={styles.Regular}
-              className=" text-center text-[#272727] text-[18px] py-1">
+              className=" text-center text-[#272727] text-[16px] py-1 px-2">
               Basic HTML
             </Text>
           </TouchableHighlight>
@@ -67,7 +67,7 @@ const Webdevelopement = ({navigation}) => {
             underlayColor={{color: '#e2e2e2', borderRadius: 10}}>
             <Text
               style={styles.Regular}
-              className=" text-center text-[#272727] text-[18px] py-1">
+              className=" text-center text-[#272727] text-[16px] py-1 px-2">
               HTML with Css
             </Text>
           </TouchableHighlight>
@@ -87,7 +87,7 @@ const Webdevelopement = ({navigation}) => {
             underlayColor={{color: '#e2e2e2', borderRadius: 10}}>
             <Text
               style={styles.Regular}
-              className=" text-center text-[#272727] text-[18px] py-1">
+              className=" text-center text-[#272727] text-[16px] py-1 px-2">
               Functional Web
             </Text>
           </TouchableHighlight>
@@ -107,7 +107,7 @@ const Webdevelopement = ({navigation}) => {
             underlayColor={{color: '#e2e2e2', borderRadius: 10}}>
             <Text
               style={styles.Regular}
-              className=" text-center text-[#272727] text-[18px] py-1">
+              className=" text-center text-[#272727] text-[16px] py-1 px-2">
               Navigator
             </Text>
           </TouchableHighlight>
@@ -127,7 +127,7 @@ const Webdevelopement = ({navigation}) => {
             underlayColor={{color: '#e2e2e2', borderRadius: 10}}>
             <Text
               style={styles.Regular}
-              className=" text-center text-[#272727] text-[18px] py-1">
+              className=" text-center text-[#272727] text-[16px] py-1 px-2">
               Display Image
             </Text>
           </TouchableHighlight>
@@ -147,7 +147,7 @@ const Webdevelopement = ({navigation}) => {
             underlayColor={{color: '#e2e2e2', borderRadius: 10}}>
             <Text
               style={styles.Regular}
-              className=" text-center text-[#272727] text-[18px] py-1">
+              className=" text-center text-[#272727] text-[16px] py-1 px-2">
               Text hover
             </Text>
           </TouchableHighlight>

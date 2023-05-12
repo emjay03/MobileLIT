@@ -98,6 +98,16 @@ import Removephp from './Php/Removephp';
 import Averagearrayphp from './Php/Averagearrayphp';
 import Mergephp from './Php/Mergephp';
 import Reversephp from './C/Reversephp';
+import SecondLearningOutcomesModule3 from './Learningoutcome/SecondLearningOutcomesModule3';
+import SecondLearningOutcomesModule4 from './Learningoutcome/SecondLearningOutcomesModule4';
+import SecondLearningOutcomesModule5 from './Learningoutcome/SecondLearningOutcomesModule5';
+import SecondLearningOutcomesModule6 from './Learningoutcome/SecondLearningOutcomesModule6';
+import SecondLearningOutcomesModule7 from './Learningoutcome/SecondLearningOutcomesModule7';
+import SecondLearningOutcomesModule8 from './Learningoutcome/SecondLearningOutcomesModule8';
+import SecondLearningOutcomesModule9 from './Learningoutcome/SecondLearningOutcomesModule9';
+import FourthLearningOutcomesModule2 from './Learningoutcome/FourthLearningOutcomesModule2';
+import FourthLearningOutcomesModule3 from './Learningoutcome/FourthLearningOutcomesModule3';
+import FourthLearningOutcomesModule4 from './Learningoutcome/FourthLearningOutcomesModule4';
 
 
 const Stack = createStackNavigator();
@@ -2989,6 +2999,272 @@ function HomeStack({ navigation }) {
     }} 
   />
   <Stack.Screen 
+    name="SecondLearningOutcomesModule3" 
+    component={SecondLearningOutcomesModule3} 
+    options={{
+      headerTitle: 'Learning Outcomes',
+      headerTitleAlign: 'center',
+      headerTitleStyle: {
+        fontSize: 20,
+       
+        fontFamily:'Poppins-SemiBold',
+        color: '#EFFFFB',
+        fontWeight: 'normal',
+      },
+      headerStyle: {
+        backgroundColor: '#0C4294',
+        elevation: 0, // remove shadow on Android
+        shadowOpacity: 0, // remove shadow on iOS
+      },
+      headerLeft: () => (
+        <Ionicons
+          name="arrow-back"
+          size={24}
+          color="#EFFFFB"
+          onPress={() => navigation.goBack()}
+          style={{ marginLeft: 16 }}
+        />
+      ),
+      headerRight: () => (
+        <Entypo
+          name="help-with-circle"
+          size={20}
+          color="#EFFFFB"
+          onPress={() => navigation.navigate('Guide')}
+          style={{ marginRight: 16 }}
+        />
+      ),
+    }} 
+  />
+   <Stack.Screen 
+    name="SecondLearningOutcomesModule4" 
+    component={SecondLearningOutcomesModule4} 
+    options={{
+      headerTitle: 'Learning Outcomes',
+      headerTitleAlign: 'center',
+      headerTitleStyle: {
+        fontSize: 20,
+       
+        fontFamily:'Poppins-SemiBold',
+        color: '#EFFFFB',
+        fontWeight: 'normal',
+      },
+      headerStyle: {
+        backgroundColor: '#0C4294',
+        elevation: 0, // remove shadow on Android
+        shadowOpacity: 0, // remove shadow on iOS
+      },
+      headerLeft: () => (
+        <Ionicons
+          name="arrow-back"
+          size={24}
+          color="#EFFFFB"
+          onPress={() => navigation.goBack()}
+          style={{ marginLeft: 16 }}
+        />
+      ),
+      headerRight: () => (
+        <Entypo
+          name="help-with-circle"
+          size={20}
+          color="#EFFFFB"
+          onPress={() => navigation.navigate('Guide')}
+          style={{ marginRight: 16 }}
+        />
+      ),
+    }} 
+  />
+   <Stack.Screen 
+    name="SecondLearningOutcomesModule5" 
+    component={SecondLearningOutcomesModule5} 
+    options={{
+      headerTitle: 'Learning Outcomes',
+      headerTitleAlign: 'center',
+      headerTitleStyle: {
+        fontSize: 20,
+       
+        fontFamily:'Poppins-SemiBold',
+        color: '#EFFFFB',
+        fontWeight: 'normal',
+      },
+      headerStyle: {
+        backgroundColor: '#0C4294',
+        elevation: 0, // remove shadow on Android
+        shadowOpacity: 0, // remove shadow on iOS
+      },
+      headerLeft: () => (
+        <Ionicons
+          name="arrow-back"
+          size={24}
+          color="#EFFFFB"
+          onPress={() => navigation.goBack()}
+          style={{ marginLeft: 16 }}
+        />
+      ),
+      headerRight: () => (
+        <Entypo
+          name="help-with-circle"
+          size={20}
+          color="#EFFFFB"
+          onPress={() => navigation.navigate('Guide')}
+          style={{ marginRight: 16 }}
+        />
+      ),
+    }} 
+  />
+  <Stack.Screen 
+    name="SecondLearningOutcomesModule6" 
+    component={SecondLearningOutcomesModule6} 
+    options={{
+      headerTitle: 'Learning Outcomes',
+      headerTitleAlign: 'center',
+      headerTitleStyle: {
+        fontSize: 20,
+       
+        fontFamily:'Poppins-SemiBold',
+        color: '#EFFFFB',
+        fontWeight: 'normal',
+      },
+      headerStyle: {
+        backgroundColor: '#0C4294',
+        elevation: 0, // remove shadow on Android
+        shadowOpacity: 0, // remove shadow on iOS
+      },
+      headerLeft: () => (
+        <Ionicons
+          name="arrow-back"
+          size={24}
+          color="#EFFFFB"
+          onPress={() => navigation.goBack()}
+          style={{ marginLeft: 16 }}
+        />
+      ),
+      headerRight: () => (
+        <Entypo
+          name="help-with-circle"
+          size={20}
+          color="#EFFFFB"
+          onPress={() => navigation.navigate('Guide')}
+          style={{ marginRight: 16 }}
+        />
+      ),
+    }} 
+  />
+   <Stack.Screen 
+    name="SecondLearningOutcomesModule7" 
+    component={SecondLearningOutcomesModule7} 
+    options={{
+      headerTitle: 'Learning Outcomes',
+      headerTitleAlign: 'center',
+      headerTitleStyle: {
+        fontSize: 20,
+       
+        fontFamily:'Poppins-SemiBold',
+        color: '#EFFFFB',
+        fontWeight: 'normal',
+      },
+      headerStyle: {
+        backgroundColor: '#0C4294',
+        elevation: 0, // remove shadow on Android
+        shadowOpacity: 0, // remove shadow on iOS
+      },
+      headerLeft: () => (
+        <Ionicons
+          name="arrow-back"
+          size={24}
+          color="#EFFFFB"
+          onPress={() => navigation.goBack()}
+          style={{ marginLeft: 16 }}
+        />
+      ),
+      headerRight: () => (
+        <Entypo
+          name="help-with-circle"
+          size={20}
+          color="#EFFFFB"
+          onPress={() => navigation.navigate('Guide')}
+          style={{ marginRight: 16 }}
+        />
+      ),
+    }} 
+  />
+     <Stack.Screen 
+    name="SecondLearningOutcomesModule8" 
+    component={SecondLearningOutcomesModule8} 
+    options={{
+      headerTitle: 'Learning Outcomes',
+      headerTitleAlign: 'center',
+      headerTitleStyle: {
+        fontSize: 20,
+       
+        fontFamily:'Poppins-SemiBold',
+        color: '#EFFFFB',
+        fontWeight: 'normal',
+      },
+      headerStyle: {
+        backgroundColor: '#0C4294',
+        elevation: 0, // remove shadow on Android
+        shadowOpacity: 0, // remove shadow on iOS
+      },
+      headerLeft: () => (
+        <Ionicons
+          name="arrow-back"
+          size={24}
+          color="#EFFFFB"
+          onPress={() => navigation.goBack()}
+          style={{ marginLeft: 16 }}
+        />
+      ),
+      headerRight: () => (
+        <Entypo
+          name="help-with-circle"
+          size={20}
+          color="#EFFFFB"
+          onPress={() => navigation.navigate('Guide')}
+          style={{ marginRight: 16 }}
+        />
+      ),
+    }} 
+  />
+   <Stack.Screen 
+    name="SecondLearningOutcomesModule9" 
+    component={SecondLearningOutcomesModule9} 
+    options={{
+      headerTitle: 'Learning Outcomes',
+      headerTitleAlign: 'center',
+      headerTitleStyle: {
+        fontSize: 20,
+       
+        fontFamily:'Poppins-SemiBold',
+        color: '#EFFFFB',
+        fontWeight: 'normal',
+      },
+      headerStyle: {
+        backgroundColor: '#0C4294',
+        elevation: 0, // remove shadow on Android
+        shadowOpacity: 0, // remove shadow on iOS
+      },
+      headerLeft: () => (
+        <Ionicons
+          name="arrow-back"
+          size={24}
+          color="#EFFFFB"
+          onPress={() => navigation.goBack()}
+          style={{ marginLeft: 16 }}
+        />
+      ),
+      headerRight: () => (
+        <Entypo
+          name="help-with-circle"
+          size={20}
+          color="#EFFFFB"
+          onPress={() => navigation.navigate('Guide')}
+          style={{ marginRight: 16 }}
+        />
+      ),
+    }} 
+  />
+  <Stack.Screen 
     name="ThirdLearningOutcomesModule1" 
     component={ThirdLearningOutcomesModule1} 
     options={{
@@ -3065,7 +3341,123 @@ function HomeStack({ navigation }) {
       ),
     }} 
   />
+  <Stack.Screen 
+    name="FourthLearningOutcomesModule2" 
+    component={FourthLearningOutcomesModule2} 
+    options={{
+      headerTitle: 'Learning Outcomes',
+      headerTitleAlign: 'center',
+      headerTitleStyle: {
+        fontSize: 20,
+       
+        fontFamily:'Poppins-SemiBold',
+        color: '#EFFFFB',
+        fontWeight: 'normal',
+      },
+      headerStyle: {
+        backgroundColor: '#0C4294',
+        elevation: 0, // remove shadow on Android
+        shadowOpacity: 0, // remove shadow on iOS
+      },
+      headerLeft: () => (
+        <Ionicons
+          name="arrow-back"
+          size={24}
+          color="#EFFFFB"
+          onPress={() => navigation.goBack()}
+          style={{ marginLeft: 16 }}
+        />
+      ),
+      headerRight: () => (
+        <Entypo
+          name="help-with-circle"
+          size={20}
+          color="#EFFFFB"
+          onPress={() => navigation.navigate('Guide')}
+          style={{ marginRight: 16 }}
+        />
+      ),
+    }} 
+  />
 
+<Stack.Screen 
+    name="FourthLearningOutcomesModule3" 
+    component={FourthLearningOutcomesModule3} 
+    options={{
+      headerTitle: 'Learning Outcomes',
+      headerTitleAlign: 'center',
+      headerTitleStyle: {
+        fontSize: 20,
+       
+        fontFamily:'Poppins-SemiBold',
+        color: '#EFFFFB',
+        fontWeight: 'normal',
+      },
+      headerStyle: {
+        backgroundColor: '#0C4294',
+        elevation: 0, // remove shadow on Android
+        shadowOpacity: 0, // remove shadow on iOS
+      },
+      headerLeft: () => (
+        <Ionicons
+          name="arrow-back"
+          size={24}
+          color="#EFFFFB"
+          onPress={() => navigation.goBack()}
+          style={{ marginLeft: 16 }}
+        />
+      ),
+      headerRight: () => (
+        <Entypo
+          name="help-with-circle"
+          size={20}
+          color="#EFFFFB"
+          onPress={() => navigation.navigate('Guide')}
+          style={{ marginRight: 16 }}
+        />
+      ),
+    }} 
+  />
+
+
+<Stack.Screen 
+    name="FourthLearningOutcomesModule4" 
+    component={FourthLearningOutcomesModule4} 
+    options={{
+      headerTitle: 'Learning Outcomes',
+      headerTitleAlign: 'center',
+      headerTitleStyle: {
+        fontSize: 20,
+       
+        fontFamily:'Poppins-SemiBold',
+        color: '#EFFFFB',
+        fontWeight: 'normal',
+      },
+      headerStyle: {
+        backgroundColor: '#0C4294',
+        elevation: 0, // remove shadow on Android
+        shadowOpacity: 0, // remove shadow on iOS
+      },
+      headerLeft: () => (
+        <Ionicons
+          name="arrow-back"
+          size={24}
+          color="#EFFFFB"
+          onPress={() => navigation.goBack()}
+          style={{ marginLeft: 16 }}
+        />
+      ),
+      headerRight: () => (
+        <Entypo
+          name="help-with-circle"
+          size={20}
+          color="#EFFFFB"
+          onPress={() => navigation.navigate('Guide')}
+          style={{ marginRight: 16 }}
+        />
+      ),
+    }} 
+  />
 <Stack.Screen 
     name="AdvanceLearningOutcomesModule1" 
     component={AdvanceLearningOutcomesModule1} 

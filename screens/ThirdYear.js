@@ -109,7 +109,7 @@ import {
           <View className="p-4  ">
             <TouchableHighlight
               underlayColor="#E5E7EB"
-              onPress={() => navigation.navigate('LearningOutcomesModule3')}>
+              onPress={() => navigation.navigate('SecondLearningOutcomesModule3')}>
               <View className=" py-3  flex flex-row bg-[#fffdff] rounded-md h-auto shadow-lg">
                 <View className="w-1/5 flex-col justify-center text-center">
                   <Text
@@ -147,7 +147,7 @@ import {
           <View className="p-4  ">
             <TouchableHighlight
               underlayColor="#E5E7EB"
-              onPress={() => navigation.navigate('LearningOutcomesModule4')}>
+              onPress={() => navigation.navigate('SecondLearningOutcomesModule4')}>
               <View className=" py-3  flex flex-row bg-[#fffdff] rounded-md h-auto shadow-lg">
                 <View className="w-1/5 flex-col justify-center text-center">
                   <Text
@@ -181,159 +181,183 @@ import {
           {/* Close Module 4 */}
           {/* Open Module 5 */}
           <View className="p-4  ">
-            <View className=" py-3  flex flex-row bg-[#fffdff] rounded-md h-auto shadow-lg">
-              <View className="w-1/5 flex-col justify-center text-center">
-                <Text
-                  style={styles.Bold}
-                  className=" text-center  text-[#50D890]  ">
-                  Module{' '}
-                </Text>
-                <Text
-                  style={styles.Bold}
-                  className=" text-center  text-xl  text-[#50D890]  ">
-                  {' '}
-                  5
-                </Text>
+            <TouchableHighlight
+              underlayColor="#E5E7EB"
+              onPress={() => navigation.navigate('SecondLearningOutcomesModule5')}>
+              <View className=" py-3  flex flex-row bg-[#fffdff] rounded-md h-auto shadow-lg">
+                <View className="w-1/5 flex-col justify-center text-center">
+                  <Text
+                    style={styles.Bold}
+                    className=" text-center text-[#50D890]  ">
+                    Module
+                  </Text>
+                  <Text
+                    style={styles.Bold}
+                    className=" text-center  text-xl  text-[#50D890] ">
+                    {' '}
+                    5
+                  </Text>
+                </View>
+                <View className=" w-4/5 flex-col px-2">
+                  <Text
+                    style={styles.SemiBold}
+                    className=" text-[#272727] text-[17px] ">
+                    Introducing To Operating System{' '}
+                  </Text>
+                  <Text
+                    style={styles.Medium}
+                    className=" text-[#272727] text-[15px] leading-5">
+                    Programming fundamentals are the essential concepts that serve
+                    as the building blocks of computer programming..{' '}
+                  </Text>
+                </View>
               </View>
-              <View className=" w-4/5 flex-col px-2">
-                <Text
-                  style={styles.SemiBold}
-                  className=" text-[#272727] text-[17px] ">
-                  Database Management Systems{' '}
-                </Text>
-                <Text
-                  style={styles.Medium}
-                  className=" text-[#272727] text-[15px] leading-5">
-                  Programming fundamentals are the essential concepts that serve
-                  as the building blocks of computer programming..{' '}
-                </Text>
-              </View>
-            </View>
+            </TouchableHighlight>
           </View>
           {/* Close Module 5 */}
-          {/* Open Module 6 */}
           <View className="p-4  ">
-            <View className=" py-3  flex flex-row bg-[#fffdff] rounded-md h-auto shadow-lg">
-              <View className="w-1/5 flex-col justify-center text-center">
-                <Text
-                  style={styles.Bold}
-                  className=" text-center  text-[#50D890]  ">
-                  Module{' '}
-                </Text>
-                <Text
-                  style={styles.Bold}
-                  className=" text-center  text-xl  text-[#50D890] ">
-                  {' '}
-                  6
-                </Text>
+            <TouchableHighlight
+              underlayColor="#E5E7EB"
+              onPress={() => navigation.navigate('SecondLearningOutcomesModule6')}>
+              <View className=" py-3  flex flex-row bg-[#fffdff] rounded-md h-auto shadow-lg">
+                <View className="w-1/5 flex-col justify-center text-center">
+                  <Text
+                    style={styles.Bold}
+                    className=" text-center text-[#50D890]  ">
+                    Module
+                  </Text>
+                  <Text
+                    style={styles.Bold}
+                    className=" text-center  text-xl  text-[#50D890] ">
+                    {' '}
+                    6
+                  </Text>
+                </View>
+                <View className=" w-4/5 flex-col px-2">
+                  <Text
+                    style={styles.SemiBold}
+                    className=" text-[#272727] text-[17px] ">
+                    Introducing To Operating System{' '}
+                  </Text>
+                  <Text
+                    style={styles.Medium}
+                    className=" text-[#272727] text-[15px] leading-5">
+                    Programming fundamentals are the essential concepts that serve
+                    as the building blocks of computer programming..{' '}
+                  </Text>
+                </View>
               </View>
-              <View className=" w-4/5 flex-col px-2">
-                <Text
-                  style={styles.SemiBold}
-                  className=" text-[#272727] text-[17px] ">
-                  Discrete Structures for Computing{' '}
-                </Text>
-                <Text
-                  style={styles.Medium}
-                  className=" text-[#272727] text-[15px] leading-5">
-                  Programming fundamentals are the essential concepts that serve
-                  as the building blocks of computer programming..{' '}
-                </Text>
-              </View>
-            </View>
+            </TouchableHighlight>
           </View>
+          {/* Open Module 6 */}
+         
           {/* Close Module 6 */}
           {/* Open Module 7 */}
           <View className="p-4  ">
-            <View className=" py-3  flex flex-row bg-[#fffdff] rounded-md h-auto shadow-lg">
-              <View className="w-1/5 flex-col justify-center text-center">
-                <Text
-                  style={styles.Bold}
-                  className=" text-center  text-[#50D890]  ">
-                  Module{' '}
-                </Text>
-                <Text
-                  style={styles.Bold}
-                  className=" text-center  text-xl  text-[#50D890]  ">
-                  7
-                </Text>
+            <TouchableHighlight
+              underlayColor="#E5E7EB"
+              onPress={() => navigation.navigate('SecondLearningOutcomesModule7')}>
+              <View className=" py-3  flex flex-row bg-[#fffdff] rounded-md h-auto shadow-lg">
+                <View className="w-1/5 flex-col justify-center text-center">
+                  <Text
+                    style={styles.Bold}
+                    className=" text-center text-[#50D890]  ">
+                    Module
+                  </Text>
+                  <Text
+                    style={styles.Bold}
+                    className=" text-center  text-xl  text-[#50D890] ">
+                    {' '}
+                    7
+                  </Text>
+                </View>
+                <View className=" w-4/5 flex-col px-2">
+                  <Text
+                    style={styles.SemiBold}
+                    className=" text-[#272727] text-[17px] ">
+                    Introducing To Operating System{' '}
+                  </Text>
+                  <Text
+                    style={styles.Medium}
+                    className=" text-[#272727] text-[15px] leading-5">
+                    Programming fundamentals are the essential concepts that serve
+                    as the building blocks of computer programming..{' '}
+                  </Text>
+                </View>
               </View>
-              <View className=" w-4/5 flex-col px-2">
-                <Text
-                  style={styles.SemiBold}
-                  className=" text-[#272727] text-[17px] ">
-                  Fundamental of Programming{' '}
-                </Text>
-                <Text
-                  style={styles.Medium}
-                  className=" text-[#272727] text-[15px] leading-5">
-                  Programming fundamentals are the essential concepts that serve
-                  as the building blocks of computer programming..{' '}
-                </Text>
-              </View>
-            </View>
+            </TouchableHighlight>
           </View>
           {/* Close Module 7 */}
           {/* Open Module 8 */}
           <View className="p-4  ">
-            <View className=" py-3  flex flex-row bg-[#fffdff] rounded-md h-[140px] shadow-lg">
-              <View className="w-1/5 flex-col justify-center text-center">
-                <Text
-                  style={styles.Bold}
-                  className=" text-center  text-[#50D890]  ">
-                  Module{' '}
-                </Text>
-                <Text
-                  style={styles.Bold}
-                  className=" text-center  text-xl  text-[#50D890]  ">
-                  8
-                </Text>
+            <TouchableHighlight
+              underlayColor="#E5E7EB"
+              onPress={() => navigation.navigate('SecondLearningOutcomesModule8')}>
+              <View className=" py-3  flex flex-row bg-[#fffdff] rounded-md h-auto shadow-lg">
+                <View className="w-1/5 flex-col justify-center text-center">
+                  <Text
+                    style={styles.Bold}
+                    className=" text-center text-[#50D890]  ">
+                    Module
+                  </Text>
+                  <Text
+                    style={styles.Bold}
+                    className=" text-center  text-xl  text-[#50D890] ">
+                    {' '}
+                    8
+                  </Text>
+                </View>
+                <View className=" w-4/5 flex-col px-2">
+                  <Text
+                    style={styles.SemiBold}
+                    className=" text-[#272727] text-[17px] ">
+                    Introducing To Operating System{' '}
+                  </Text>
+                  <Text
+                    style={styles.Medium}
+                    className=" text-[#272727] text-[15px] leading-5">
+                    Programming fundamentals are the essential concepts that serve
+                    as the building blocks of computer programming..{' '}
+                  </Text>
+                </View>
               </View>
-              <View className=" w-4/5 flex-col px-2">
-                <Text
-                  style={styles.SemiBold}
-                  className=" text-[#272727] text-[17px] ">
-                  Fundamental of Programming{' '}
-                </Text>
-                <Text
-                  style={styles.Medium}
-                  className=" text-[#272727] text-[15px] leading-5">
-                  Programming fundamentals are the essential concepts that serve
-                  as the building blocks of computer programming..{' '}
-                </Text>
-              </View>
-            </View>
+            </TouchableHighlight>
           </View>
           {/* Close Module 8 */}
           {/* Open Module 9 */}
-          <View className="px-4 pt-4  ">
-            <View className=" py-3  flex flex-row bg-[#fffdff] rounded-md h-auto shadow-lg">
-              <View className="w-1/5 flex-col justify-center text-center">
-                <Text
-                  style={styles.Bold}
-                  className=" text-center text-[#50D890] ">
-                  Module{' '}
-                </Text>
-                <Text
-                  style={styles.Bold}
-                  className=" text-center  text-xl  text-[#50D890]  ">
-                  9
-                </Text>
+          <View className="p-4  ">
+            <TouchableHighlight
+              underlayColor="#E5E7EB"
+              onPress={() => navigation.navigate('SecondLearningOutcomesModule9')}>
+              <View className=" py-3  flex flex-row bg-[#fffdff] rounded-md h-auto shadow-lg">
+                <View className="w-1/5 flex-col justify-center text-center">
+                  <Text
+                    style={styles.Bold}
+                    className=" text-center text-[#50D890]  ">
+                    Module
+                  </Text>
+                  <Text
+                    style={styles.Bold}
+                    className=" text-center  text-xl  text-[#50D890] ">
+                    {' '}
+                    9
+                  </Text>
+                </View>
+                <View className=" w-4/5 flex-col px-2">
+                  <Text
+                    style={styles.SemiBold}
+                    className=" text-[#272727] text-[17px] ">
+                    Introducing To Operating System{' '}
+                  </Text>
+                  <Text
+                    style={styles.Medium}
+                    className=" text-[#272727] text-[15px] leading-5">
+                    Programming fundamentals are the essential concepts that serve
+                    as the building blocks of computer programming..{' '}
+                  </Text>
+                </View>
               </View>
-              <View className=" w-4/5 flex-col px-2">
-                <Text
-                  style={styles.SemiBold}
-                  className=" text-[#272727] text-[17px] ">
-                  Fundamental of Programming{' '}
-                </Text>
-                <Text
-                  style={styles.Medium}
-                  className=" text-[#272727] text-[15px] leading-5">
-                  Programming fundamentals are the essential concepts that serve
-                  as the building blocks of computer programming..{' '}
-                </Text>
-              </View>
-            </View>
+            </TouchableHighlight>
           </View>
           {/* Close Module 9 */}
         </View>
