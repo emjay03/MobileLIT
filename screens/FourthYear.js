@@ -124,16 +124,18 @@ import {
           {/* Close Module 5 */}
           {/* Open Module 6 */}
           <View className="p-4  ">
-             <View className=" py-3  flex flex-row bg-[#fffdff] rounded-md h-auto shadow-lg">
+          <TouchableHighlight    underlayColor="#E5E7EB"  onPress={() => navigation.navigate('FourthLearningOutcomesModule6')}>
+            <View className=" py-3  flex flex-row bg-[#fffdff] rounded-md h-auto shadow-lg">
               <View className="w-1/5 flex-col justify-center text-center">
-              <Text style={styles.Bold} className=" text-center  text-[#50D890]  ">
-                  Module{' '}
+              <Text style={styles.Bold} className=" text-center text-[#50D890]  ">
+                 
+                  Module
                 </Text>
-                <Text  style={styles.Bold} className=" text-center  text-xl  text-[#50D890] "> 6</Text>
+                <Text  style={styles.Bold} className=" text-center  text-xl  text-[#50D890] ">6</Text>
               </View>
               <View className=" w-4/5 flex-col px-2">
                 <Text style={styles.SemiBold} className=" text-[#272727] text-[17px] ">
-                Discrete Structures for Computing{' '}
+                Introducing To Operating System{' '}
                 </Text>
                 <Text style={styles.Medium} className=" text-[#272727] text-[15px] leading-5">
                   Programming fundamentals are the essential concepts that serve
@@ -141,6 +143,7 @@ import {
                 </Text>
               </View>
             </View>
+            </TouchableHighlight>
           </View>
           {/* Close Module 6 */}
           {/* Open Module 7 */}
