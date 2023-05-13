@@ -261,7 +261,7 @@ const QuizModule1 = ({navigation}) => {
               <Text
                 style={styles.PoppinsNormal}
                 className="text-[19px] leading-7 text-center text-[#272727]">
-                Congratulations on completing the quiz! You should feel very
+                111Congratulations on completing the quiz! You should feel very
                 proud of yourself for putting in the effort and seeing it
                 through to the end.
               </Text>
@@ -305,17 +305,17 @@ const QuizModule1 = ({navigation}) => {
                 )}
               </Text>
               <View className="flex justify-center items-center py-4">
-                <TouchableHighlight
-                  className="rounded-md my-2 w-1/2bg-[#0C4294] flex justify-center items-center"
-                  title="Retry"
-                  onPress={handleRetry}>
-                  <Text
-                    style={styles.SemiBold}
-                    className="text-[17px] py-2 text-white">
-                    Retry
-                  </Text>
-                </TouchableHighlight>
-              </View>
+                  <TouchableHighlight
+                    className="rounded-md my-2 w-1/2 bg-[#0C4294] flex justify-center items-center"
+                    title="Retry"
+                    underlayColor="#105aca"  onPress={handleRetry}>
+                    <Text
+                      style={styles.SemiBold}
+                      className="text-[17px] py-2 text-white">
+                      Retry
+                    </Text>
+                  </TouchableHighlight>
+                </View>
             </View>
           </View>
         </ScrollView>
@@ -363,7 +363,7 @@ const QuizModule1 = ({navigation}) => {
           </View>
           
     ):(
-          // choices
+          // choices completed the quiz
           <SafeAreaView className="flex-1 bg-white  justify-center items-center  ">
           <ScrollView className="h-full flex-1 py-10 ">
             <View className=" px-4 py-0">
@@ -372,7 +372,7 @@ const QuizModule1 = ({navigation}) => {
                 <Text
                   style={styles.PoppinsNormal}
                   className="text-[19px] leading-7 text-center text-[#272727]">
-                  Congratulations on completing the quiz! You should feel very
+                  22222Congratulations on completing the quiz! You should feel very
                   proud of yourself for putting in the effort and seeing it
                   through to the end.
                 </Text>

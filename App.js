@@ -108,6 +108,10 @@ import SecondLearningOutcomesModule9 from './Learningoutcome/SecondLearningOutco
 import FourthLearningOutcomesModule2 from './Learningoutcome/FourthLearningOutcomesModule2';
 import FourthLearningOutcomesModule3 from './Learningoutcome/FourthLearningOutcomesModule3';
 import FourthLearningOutcomesModule4 from './Learningoutcome/FourthLearningOutcomesModule4';
+import FourthLearningOutcomesModule5 from './Learningoutcome/FourthLearningOutcomesModule5';
+import FourthLearningOutcomesModule6 from './Learningoutcome/FourthLearningOutcomesModule6';
+import QuizModule1 from './screens/QuizModule1';
+ 
 
 
 const Stack = createStackNavigator();
@@ -3458,6 +3462,84 @@ function HomeStack({ navigation }) {
       ),
     }} 
   />
+   <Stack.Screen 
+    name="FourthLearningOutcomesModule5" 
+    component={FourthLearningOutcomesModule5} 
+    options={{
+      headerTitle: 'Learning Outcomes',
+      headerTitleAlign: 'center',
+      headerTitleStyle: {
+        fontSize: 20,
+       
+        fontFamily:'Poppins-SemiBold',
+        color: '#EFFFFB',
+        fontWeight: 'normal',
+      },
+      headerStyle: {
+        backgroundColor: '#0C4294',
+        elevation: 0, // remove shadow on Android
+        shadowOpacity: 0, // remove shadow on iOS
+      },
+      headerLeft: () => (
+        <Ionicons
+          name="arrow-back"
+          size={24}
+          color="#EFFFFB"
+          onPress={() => navigation.goBack()}
+          style={{ marginLeft: 16 }}
+        />
+      ),
+      headerRight: () => (
+        <Entypo
+          name="help-with-circle"
+          size={20}
+          color="#EFFFFB"
+          onPress={() => navigation.navigate('Guide')}
+          style={{ marginRight: 16 }}
+        />
+      ),
+    }} 
+  />
+  <Stack.Screen 
+    name="FourthLearningOutcomesModule6" 
+    component={FourthLearningOutcomesModule6} 
+    options={{
+      headerTitle: 'Learning Outcomes',
+      headerTitleAlign: 'center',
+      headerTitleStyle: {
+        fontSize: 20,
+       
+        fontFamily:'Poppins-SemiBold',
+        color: '#EFFFFB',
+        fontWeight: 'normal',
+      },
+      headerStyle: {
+        backgroundColor: '#0C4294',
+        elevation: 0, // remove shadow on Android
+        shadowOpacity: 0, // remove shadow on iOS
+      },
+      headerLeft: () => (
+        <Ionicons
+          name="arrow-back"
+          size={24}
+          color="#EFFFFB"
+          onPress={() => navigation.goBack()}
+          style={{ marginLeft: 16 }}
+        />
+      ),
+      headerRight: () => (
+        <Entypo
+          name="help-with-circle"
+          size={20}
+          color="#EFFFFB"
+          onPress={() => navigation.navigate('Guide')}
+          style={{ marginRight: 16 }}
+        />
+      ),
+    }} 
+  />
+   
+  
 <Stack.Screen 
     name="AdvanceLearningOutcomesModule1" 
     component={AdvanceLearningOutcomesModule1} 
