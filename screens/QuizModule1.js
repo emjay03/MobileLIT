@@ -4,6 +4,7 @@ import {
   Text,
   Button,
   TouchableHighlight,
+  TouchableOpacity,
   StyleSheet,
   Image,
   SafeAreaView,
@@ -345,18 +346,20 @@ const QuizModule1 = ({navigation}) => {
             </View>
             <View className="py-4 px-2  rounded-2xl">
               {questions[currentQuestion].options.map((option, index) => (
-                <TouchableHighlight
+                <TouchableOpacity
+                activeOpacity={0.8}
                   key={index}
                   onPress={() => {
                     handleOptionSelect(option);
                     setSelectedOption(option);
+                    
                   }}
                   className={` bg-white shadow-lg border-none  p-5 m-2 rounded-md  }`}>
                   <Text style={styles.Normal} className="text-black text-base">
                  
                     {` ${String.fromCharCode(65 + index)}. ${option}`}
                   </Text>
-                </TouchableHighlight>
+                </TouchableOpacity>
               ))}
             </View>
             
